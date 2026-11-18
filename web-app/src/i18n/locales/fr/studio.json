@@ -1,0 +1,227 @@
+{
+  "title": "Studio de design",
+  "templates": {
+    "blank": "Page vierge",
+    "letterhead": "Papier à en-tête",
+    "quote": "Devis",
+    "receipt": "Reçu",
+    "checklist": "Liste de déménagement",
+    "social": "Publication promotionnelle"
+  },
+  "toolbar": {
+    "text": "Texte",
+    "image": "Image",
+    "rect": "Rectangle",
+    "line": "Ligne",
+    "save": "Enregistrer",
+    "export": "Exporter en PDF"
+  },
+  "page": {
+    "newDocumentConfirm": "Abandonner les modifications non exportées ?",
+    "pdfOpened": "PDF ouvert dans Studio",
+    "fileMenu": "Fichier",
+    "newDocument": "Nouveau document",
+    "openPdf": "Ouvrir un PDF",
+    "editableRecommended": "Modifiable (recommandé)",
+    "editableDesc": "Les textes, polices, couleurs et images deviennent des éléments modifiables sur toutes les pages.",
+    "overlay": "Superposer",
+    "overlayDesc": "Conserve le PDF comme image ; modifiez par-dessus.",
+    "saveDraft": "Enregistrer le brouillon",
+    "draftSaved": "Brouillon enregistré",
+    "draftTooLarge": "Brouillon trop volumineux pour être enregistré localement",
+    "exportPdf": "Exporter en PDF",
+    "unsaved": "• non exporté",
+    "undo": "Annuler (⌘Z)",
+    "redo": "Rétablir (⇧⌘Z)",
+    "pages": "Pages",
+    "properties": "Propriétés",
+    "exitFullscreen": "Quitter le plein écran (Échap)",
+    "fullscreen": "Plein écran",
+    "draftBanner": "Nous avons trouvé un brouillon Studio enregistré.",
+    "restore": "Restaurer",
+    "dismiss": "Ignorer",
+    "dropHere": "Déposez un PDF ici",
+    "dropDesc": "Les textes, polices et images deviennent modifiables. Accepte aussi les images (JPG/PNG) et les documents Word/Excel/PowerPoint.",
+    "selectFile": "Sélectionner un fichier",
+    "blankDocument": "Document vierge",
+    "dropOverlay": "Déposez pour ouvrir dans Studio (PDF, image ou Office)",
+    "prevPage": "Page précédente (PageUp)",
+    "nextPage": "Page suivante (PageDown)",
+    "selected": "{{count}} sélectionné(s)",
+    "zoomOut": "Zoom arrière (⌘-)",
+    "zoomIn": "Zoom avant (⌘+)",
+    "fitWidth": "Ajuster à la largeur (⌘0)",
+    "fitPage": "Page entière",
+    "fitWidthOption": "Largeur",
+    "fitPageOption": "Page",
+    "importingPdf": "Importation du PDF",
+    "searchContact": "Rechercher un contact…",
+    "exportSuccess": "PDF exporté",
+    "exportSuccessDesc": "Également enregistré dans Documents.",
+    "exportFail": "Échec de l'exportation",
+    "sendFail": "Échec de l'envoi",
+    "importSuccess": "Document ouvert dans Studio",
+    "importOverlayNote": "{{name}} · pages préservées",
+    "importEditableNote": "{{name}} · textes et images modifiables",
+    "importFail": "Impossible d'importer",
+    "documentDefaultName": "document"
+  },
+  "pagesPanel": {
+    "title": "Pages",
+    "moveUp": "Déplacer vers le haut",
+    "moveDown": "Déplacer vers le bas",
+    "duplicate": "Dupliquer",
+    "delete": "Supprimer",
+    "confirmDelete": "Supprimer cette page ?",
+    "newPage": "Nouvelle page"
+  },
+  "fontPicker": {
+    "catAll": "Toutes",
+    "catSans": "Sans",
+    "catSerif": "Serif",
+    "catDisplay": "Display",
+    "catHandwriting": "Manuscrite",
+    "catMono": "Mono",
+    "catPdf": "Du PDF",
+    "fontLabel": "Police",
+    "searchPlaceholder": "Rechercher une police…",
+    "recent": "Récentes",
+    "weights": "{{count}} graisse(s)",
+    "noResults": "Aucune police trouvée.",
+    "embedNote": "Les Google Fonts sont intégrées au PDF exporté. Les polices standard (Helvetica, Times, Courier) n'ont pas besoin d'être intégrées."
+  },
+  "colorPicker": {
+    "noColor": "Aucune couleur",
+    "moreColorsAria": "{{label}} — plus de couleurs",
+    "colorsLabel": "Couleurs",
+    "moreColorsTitle": "Plus de couleurs"
+  },
+  "canvas": {
+    "ruler": {
+      "dragMargin": "Faites glisser pour ajuster la marge"
+    }
+  },
+  "ribbon": {
+    "tabs": {
+      "home": "Accueil",
+      "insert": "Insertion",
+      "draw": "Dessin",
+      "layout": "Mise en page",
+      "view": "Affichage"
+    },
+    "groups": {
+      "clipboard": "Presse-papiers",
+      "font": "Police",
+      "fontNextText": "Police (texte suivant)",
+      "paragraph": "Paragraphe",
+      "paragraphNextText": "Paragraphe (texte suivant)",
+      "styles": "Styles",
+      "edit": "Édition",
+      "text": "Texte",
+      "illustrations": "Illustrations",
+      "pages": "Pages"
+    },
+    "paste": {
+      "label": "Coller",
+      "caption": "Ctrl+V"
+    },
+    "textBox": {
+      "label": "Zone de texte",
+      "caption": "Nouvelle"
+    },
+    "textBoxInsert": {
+      "label": "Zone de texte",
+      "caption": "Insérer"
+    },
+    "writeText": {
+      "label": "Écrire du texte",
+      "caption": "À main levée"
+    },
+    "image": {
+      "label": "Image",
+      "caption": "Depuis l’appareil"
+    },
+    "icons": {
+      "label": "Icônes",
+      "caption": "Bibliothèque"
+    },
+    "newPage": {
+      "label": "Nouvelle page",
+      "caption": "Vierge"
+    },
+    "deletePage": {
+      "label": "Supprimer la page",
+      "caption": "Actuelle"
+    },
+    "duplicatePage": {
+      "label": "Dupliquer la page",
+      "caption": "Actuelle"
+    },
+    "case": {
+      "none": "Original",
+      "uppercase": "MAJUSCULES",
+      "lowercase": "minuscules",
+      "capitalize": "Première Lettre En Majuscule"
+    },
+    "shapeNames": {
+      "rect": "Rectangle",
+      "rounded": "Arrondi",
+      "circle": "Cercle",
+      "line": "Ligne",
+      "arrow": "Flèche"
+    },
+    "shapeShort": {
+      "rect": "Rectangle",
+      "circle": "Cercle",
+      "line": "Ligne",
+      "arrow": "Flèche"
+    },
+    "cut": "Couper",
+    "copy": "Copier",
+    "formatBrush": "Reproduire la mise en forme",
+    "formatBrushActive": "Pinceau actif",
+    "showRibbon": "Afficher le ruban",
+    "hideRibbon": "Masquer le ruban",
+    "increaseFontSize": "Agrandir la police",
+    "decreaseFontSize": "Réduire la police",
+    "caseTitle": "Modifier la casse",
+    "clearFormat": "Effacer la mise en forme",
+    "bold": "Gras",
+    "italic": "Italique",
+    "underline": "Souligné",
+    "strikethrough": "Barré",
+    "subscript": "Indice",
+    "superscript": "Exposant",
+    "highlightColor": "Couleur de surbrillance",
+    "noHighlight": "Aucune surbrillance",
+    "fontColor": "Couleur de police",
+    "bullets": "Puces",
+    "numbering": "Numérotation",
+    "decreaseIndent": "Diminuer le retrait",
+    "increaseIndent": "Augmenter le retrait",
+    "alignLeft": "Aligner à gauche",
+    "alignCenter": "Centrer",
+    "alignRight": "Aligner à droite",
+    "alignJustify": "Justifier",
+    "lineSpacingTitle": "Interligne",
+    "addSpaceBefore": "Ajouter un espace avant le paragraphe",
+    "addSpaceAfter": "Ajouter un espace après le paragraphe",
+    "removeSpacing": "Supprimer l’espacement",
+    "shading": "Trame de fond",
+    "noFill": "Aucun remplissage",
+    "bordersTitle": "Bordures",
+    "borderWidth": "{{width}} pt",
+    "noBorder": "Aucune bordure",
+    "color": "Couleur",
+    "delete": "Supprimer",
+    "duplicate": "Dupliquer",
+    "bringToFront": "Mettre au premier plan",
+    "sendToBack": "Mettre à l’arrière-plan",
+    "rotateCw": "Pivoter de 90° à droite",
+    "rotateCcw": "Pivoter de 90° à gauche",
+    "templates": "Modèles",
+    "shapesMenu": "Formes",
+    "insertCenter": "Insérer au centre",
+    "drawOnPage": "Dessiner sur la page"
+  }
+}

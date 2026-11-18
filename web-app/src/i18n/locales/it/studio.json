@@ -1,0 +1,227 @@
+{
+  "title": "Studio di design",
+  "templates": {
+    "blank": "Pagina vuota",
+    "letterhead": "Carta intestata",
+    "quote": "Preventivo",
+    "receipt": "Ricevuta",
+    "checklist": "Lista di trasloco",
+    "social": "Post promozionale"
+  },
+  "toolbar": {
+    "text": "Testo",
+    "image": "Immagine",
+    "rect": "Rettangolo",
+    "line": "Linea",
+    "save": "Salva",
+    "export": "Esporta PDF"
+  },
+  "page": {
+    "newDocumentConfirm": "Scartare le modifiche non esportate?",
+    "pdfOpened": "PDF aperto in Studio",
+    "fileMenu": "File",
+    "newDocument": "Nuovo documento",
+    "openPdf": "Apri PDF",
+    "editableRecommended": "Modificabile (consigliato)",
+    "editableDesc": "Testi, font, colori e immagini diventano elementi modificabili su tutte le pagine.",
+    "overlay": "Sovrapponi",
+    "overlayDesc": "Mantiene il PDF come immagine; modifica al di sopra.",
+    "saveDraft": "Salva bozza",
+    "draftSaved": "Bozza salvata",
+    "draftTooLarge": "Bozza troppo grande per essere salvata localmente",
+    "exportPdf": "Esporta PDF",
+    "unsaved": "• non esportato",
+    "undo": "Annulla (⌘Z)",
+    "redo": "Ripeti (⇧⌘Z)",
+    "pages": "Pagine",
+    "properties": "Proprietà",
+    "exitFullscreen": "Esci da schermo intero (Esc)",
+    "fullscreen": "Schermo intero",
+    "draftBanner": "Abbiamo trovato una bozza salvata di Studio.",
+    "restore": "Ripristina",
+    "dismiss": "Ignora",
+    "dropHere": "Trascina qui un PDF",
+    "dropDesc": "Testi, font e immagini diventano modificabili. Accetta anche immagini (JPG/PNG) e documenti Word/Excel/PowerPoint.",
+    "selectFile": "Seleziona file",
+    "blankDocument": "Documento vuoto",
+    "dropOverlay": "Rilascia per aprire in Studio (PDF, immagine o Office)",
+    "prevPage": "Pagina precedente (PageUp)",
+    "nextPage": "Pagina successiva (PageDown)",
+    "selected": "{{count}} selezionato/i",
+    "zoomOut": "Riduci zoom (⌘-)",
+    "zoomIn": "Aumenta zoom (⌘+)",
+    "fitWidth": "Adatta alla larghezza (⌘0)",
+    "fitPage": "Pagina intera",
+    "fitWidthOption": "Larghezza",
+    "fitPageOption": "Pagina",
+    "importingPdf": "Importazione PDF",
+    "searchContact": "Cerca contatto…",
+    "exportSuccess": "PDF esportato",
+    "exportSuccessDesc": "Salvato anche in Documenti.",
+    "exportFail": "Esportazione non riuscita",
+    "sendFail": "Invio non riuscito",
+    "importSuccess": "Documento aperto in Studio",
+    "importOverlayNote": "{{name}} · pagine preservate",
+    "importEditableNote": "{{name}} · testi e immagini modificabili",
+    "importFail": "Impossibile importare",
+    "documentDefaultName": "documento"
+  },
+  "pagesPanel": {
+    "title": "Pagine",
+    "moveUp": "Sposta su",
+    "moveDown": "Sposta giù",
+    "duplicate": "Duplica",
+    "delete": "Elimina",
+    "confirmDelete": "Eliminare questa pagina?",
+    "newPage": "Nuova pagina"
+  },
+  "fontPicker": {
+    "catAll": "Tutte",
+    "catSans": "Sans",
+    "catSerif": "Serif",
+    "catDisplay": "Display",
+    "catHandwriting": "Manoscritta",
+    "catMono": "Mono",
+    "catPdf": "Dal PDF",
+    "fontLabel": "Font",
+    "searchPlaceholder": "Cerca font…",
+    "recent": "Recenti",
+    "weights": "{{count}} peso/i",
+    "noResults": "Nessun font trovato.",
+    "embedNote": "I Google Fonts vengono incorporati nel PDF esportato. I font standard (Helvetica, Times, Courier) non richiedono incorporazione."
+  },
+  "colorPicker": {
+    "noColor": "Nessun colore",
+    "moreColorsAria": "{{label}} — altri colori",
+    "colorsLabel": "Colori",
+    "moreColorsTitle": "Altri colori"
+  },
+  "canvas": {
+    "ruler": {
+      "dragMargin": "Trascina per regolare il margine"
+    }
+  },
+  "ribbon": {
+    "tabs": {
+      "home": "Home",
+      "insert": "Inserisci",
+      "draw": "Disegno",
+      "layout": "Layout",
+      "view": "Visualizza"
+    },
+    "groups": {
+      "clipboard": "Appunti",
+      "font": "Carattere",
+      "fontNextText": "Carattere (prossimo testo)",
+      "paragraph": "Paragrafo",
+      "paragraphNextText": "Paragrafo (prossimo testo)",
+      "styles": "Stili",
+      "edit": "Modifica",
+      "text": "Testo",
+      "illustrations": "Illustrazioni",
+      "pages": "Pagine"
+    },
+    "paste": {
+      "label": "Incolla",
+      "caption": "Ctrl+V"
+    },
+    "textBox": {
+      "label": "Casella di testo",
+      "caption": "Nuova"
+    },
+    "textBoxInsert": {
+      "label": "Casella di testo",
+      "caption": "Inserisci"
+    },
+    "writeText": {
+      "label": "Scrivi testo",
+      "caption": "A mano libera"
+    },
+    "image": {
+      "label": "Immagine",
+      "caption": "Dal dispositivo"
+    },
+    "icons": {
+      "label": "Icone",
+      "caption": "Libreria"
+    },
+    "newPage": {
+      "label": "Nuova pagina",
+      "caption": "Vuota"
+    },
+    "deletePage": {
+      "label": "Elimina pagina",
+      "caption": "Corrente"
+    },
+    "duplicatePage": {
+      "label": "Duplica pagina",
+      "caption": "Corrente"
+    },
+    "case": {
+      "none": "Originale",
+      "uppercase": "MAIUSCOLO",
+      "lowercase": "minuscolo",
+      "capitalize": "Iniziali Maiuscole"
+    },
+    "shapeNames": {
+      "rect": "Rettangolo",
+      "rounded": "Arrotondato",
+      "circle": "Cerchio",
+      "line": "Linea",
+      "arrow": "Freccia"
+    },
+    "shapeShort": {
+      "rect": "Rettangolo",
+      "circle": "Cerchio",
+      "line": "Linea",
+      "arrow": "Freccia"
+    },
+    "cut": "Taglia",
+    "copy": "Copia",
+    "formatBrush": "Copia formato",
+    "formatBrushActive": "Pennello attivo",
+    "showRibbon": "Mostra barra multifunzione",
+    "hideRibbon": "Nascondi barra multifunzione",
+    "increaseFontSize": "Aumenta carattere",
+    "decreaseFontSize": "Riduci carattere",
+    "caseTitle": "Maiuscole/minuscole",
+    "clearFormat": "Cancella formattazione",
+    "bold": "Grassetto",
+    "italic": "Corsivo",
+    "underline": "Sottolineato",
+    "strikethrough": "Barrato",
+    "subscript": "Pedice",
+    "superscript": "Apice",
+    "highlightColor": "Colore evidenziatore",
+    "noHighlight": "Nessuna evidenziazione",
+    "fontColor": "Colore carattere",
+    "bullets": "Elenco puntato",
+    "numbering": "Elenco numerato",
+    "decreaseIndent": "Riduci rientro",
+    "increaseIndent": "Aumenta rientro",
+    "alignLeft": "Allinea a sinistra",
+    "alignCenter": "Centra",
+    "alignRight": "Allinea a destra",
+    "alignJustify": "Giustifica",
+    "lineSpacingTitle": "Interlinea",
+    "addSpaceBefore": "Aggiungi spazio prima del paragrafo",
+    "addSpaceAfter": "Aggiungi spazio dopo il paragrafo",
+    "removeSpacing": "Rimuovi spaziatura",
+    "shading": "Sfondo",
+    "noFill": "Nessun riempimento",
+    "bordersTitle": "Bordi",
+    "borderWidth": "{{width}} pt",
+    "noBorder": "Nessun bordo",
+    "color": "Colore",
+    "delete": "Elimina",
+    "duplicate": "Duplica",
+    "bringToFront": "Porta in primo piano",
+    "sendToBack": "Porta in secondo piano",
+    "rotateCw": "Ruota di 90° a destra",
+    "rotateCcw": "Ruota di 90° a sinistra",
+    "templates": "Modelli",
+    "shapesMenu": "Forme",
+    "insertCenter": "Inserisci al centro",
+    "drawOnPage": "Disegna sulla pagina"
+  }
+}

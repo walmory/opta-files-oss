@@ -1,0 +1,23 @@
+{
+  "quote": {
+    "inventoryTitle": "ELENCO INVENTARIO",
+    "ref": "RIF",
+    "date": "DATA",
+    "number": "NUMERO",
+    "package": "IMBALLAGGIO",
+    "condition": "CONDIZIONE",
+    "description": "DESCRIZIONE",
+    "value": "VALORE",
+    "items": "ARTICOLI",
+    "total": "TOTALE",
+    "company": "AZIENDA",
+    "sign": "FIRMA",
+    "client": "CLIENTE"
+  },
+  "receipt": {
+    "title": "RICEVUTA"
+  },
+  "timesheet": {
+    "title": "FOGLIO ORE"
+  }
+}

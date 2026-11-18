@@ -1,0 +1,147 @@
+{
+  "app": {
+    "name": "Nexus"
+  },
+  "nav": {
+    "dashboard": "Übersicht",
+    "calendar": "Kalender",
+    "employees": "Mitarbeiter",
+    "services": "Dienstleistungen",
+    "studio": "Studio",
+    "timesheet": "Stundenzettel",
+    "settings": "Einstellungen",
+    "map": "Karte",
+    "groups": {
+      "operations": "Betrieb",
+      "commercial": "Vertrieb",
+      "documents": "Dokumente",
+      "management": "Verwaltung"
+    },
+    "items": {
+      "overview": {
+        "label": "Übersicht",
+        "description": "KPIs, Kassenbestand und Tagesbetrieb"
+      },
+      "calendar": {
+        "label": "Kalender",
+        "description": "Betrieblicher Umzugsplan"
+      },
+      "routes": {
+        "label": "Matrix · Planer",
+        "description": "Routenverteilung und -optimierung"
+      },
+      "map": {
+        "label": "Kontrollturm",
+        "description": "Live-Flottenkarte"
+      },
+      "stubs": {
+        "label": "Belege",
+        "description": "Fahrerbelege und Fortschritt"
+      },
+      "quotes": {
+        "label": "Angebote & KI",
+        "description": "Videoanalyse, Vorschläge und Pipeline"
+      },
+      "clients": {
+        "label": "Kunden",
+        "description": "Kundenstamm und Verlauf"
+      },
+      "easyPdf": {
+        "label": "Easy PDF",
+        "description": "PDF-Werkzeuge, visueller Editor und Verlauf"
+      },
+      "finance": {
+        "label": "Finanzen",
+        "description": "Kassenfluss, Ausgaben und Abrechnung"
+      },
+      "employees": {
+        "label": "Team",
+        "description": "Fahrer, Helfer und Fremdpersonal"
+      }
+    }
+  },
+  "actions": {
+    "save": "Speichern",
+    "cancel": "Abbrechen",
+    "close": "Schließen",
+    "delete": "Löschen",
+    "edit": "Bearbeiten",
+    "add": "Hinzufügen",
+    "remove": "Entfernen",
+    "confirm": "Bestätigen",
+    "back": "Zurück",
+    "next": "Weiter",
+    "search": "Suchen",
+    "export": "Exportieren",
+    "viewAll": "Alle anzeigen",
+    "viewReceipt": "Beleg ansehen",
+    "upload": "Hochladen",
+    "reset": "Auf Standard zurücksetzen",
+    "loading": "Wird geladen…",
+    "retry": "Erneut versuchen",
+    "send": "Senden",
+    "download": "Herunterladen",
+    "print": "Drucken",
+    "copy": "Kopieren",
+    "options": "Optionen"
+  },
+  "status": {
+    "active": "Aktiv",
+    "inactive": "Inaktiv",
+    "pending": "Ausstehend",
+    "completed": "Abgeschlossen",
+    "cancelled": "Storniert",
+    "error": "Fehler",
+    "success": "Erfolg"
+  },
+  "misc": {
+    "yes": "Ja",
+    "no": "Nein",
+    "unknown": "Unbekannt",
+    "notInformed": "Nicht angegeben",
+    "comingSoon": "Demnächst verfügbar"
+  },
+  "commandPalette": {
+    "searchPlaceholder": "Seiten, Aktionen, Chats und Kunden suchen…",
+    "noResults": "Keine Ergebnisse für „{{query}}“.",
+    "navigate": "navigieren",
+    "openItem": "öffnen",
+    "clientFallback": "Kunde",
+    "groups": {
+      "pages": "Seiten",
+      "actions": "Aktionen",
+      "conversations": "Chats",
+      "clients": "Kunden"
+    },
+    "actionsList": {
+      "newQuote": {
+        "label": "Neues Angebot",
+        "hint": "Angebote & KI öffnen"
+      },
+      "pdfTools": {
+        "label": "PDF-Werkzeuge",
+        "hint": "Zusammenführen, teilen, komprimieren, signieren…"
+      }
+    }
+  },
+  "topbar": {
+    "brandEyebrow": "Opta Files",
+    "openMenu": "Menü öffnen",
+    "searchPlaceholder": "Kunde, Seite oder Aktion suchen…",
+    "notifications": "Benachrichtigungen",
+    "clear": "Löschen",
+    "noRecentNotifications": "Keine aktuellen Benachrichtigungen.",
+    "status": {
+      "connecting": "Verbindung wird hergestellt…"
+    }
+  },
+  "sidebar": {
+    "closeMenu": "Menü schließen",
+    "expandMenu": "Menü erweitern",
+    "collapseMenu": "Menü einklappen",
+    "mockUser": {
+      "name": "João Motorista",
+      "role": "Logistikleiter"
+    }
+  }
+}

@@ -1,0 +1,147 @@
+{
+  "app": {
+    "name": "Nexus"
+  },
+  "nav": {
+    "dashboard": "Pannello",
+    "calendar": "Calendario",
+    "employees": "Dipendenti",
+    "services": "Servizi",
+    "studio": "Studio",
+    "timesheet": "Foglio ore",
+    "settings": "Impostazioni",
+    "map": "Mappa",
+    "groups": {
+      "operations": "Operazioni",
+      "commercial": "Commerciale",
+      "documents": "Documenti",
+      "management": "Gestione"
+    },
+    "items": {
+      "overview": {
+        "label": "Panoramica",
+        "description": "KPI, cassa e operazioni del giorno"
+      },
+      "calendar": {
+        "label": "Calendario",
+        "description": "Agenda operativa dei traslochi"
+      },
+      "routes": {
+        "label": "Matrix · Pianificatore",
+        "description": "Distribuzione e ottimizzazione dei percorsi"
+      },
+      "map": {
+        "label": "Torre di Controllo",
+        "description": "Mappa live della flotta"
+      },
+      "stubs": {
+        "label": "Ricevute",
+        "description": "Ricevute e avanzamento degli autisti"
+      },
+      "quotes": {
+        "label": "Preventivi & IA",
+        "description": "Analisi video, proposte e pipeline"
+      },
+      "clients": {
+        "label": "Clienti",
+        "description": "Base clienti e storico"
+      },
+      "easyPdf": {
+        "label": "Easy PDF",
+        "description": "Strumenti PDF, editor visivo e cronologia"
+      },
+      "finance": {
+        "label": "Finanza",
+        "description": "Flusso di cassa, spese e fatturazione"
+      },
+      "employees": {
+        "label": "Team",
+        "description": "Autisti, aiutanti e collaboratori esterni"
+      }
+    }
+  },
+  "actions": {
+    "save": "Salva",
+    "cancel": "Annulla",
+    "close": "Chiudi",
+    "delete": "Elimina",
+    "edit": "Modifica",
+    "add": "Aggiungi",
+    "remove": "Rimuovi",
+    "confirm": "Conferma",
+    "back": "Indietro",
+    "next": "Avanti",
+    "search": "Cerca",
+    "export": "Esporta",
+    "viewAll": "Vedi tutti",
+    "viewReceipt": "Vedi ricevuta",
+    "upload": "Carica",
+    "reset": "Ripristina predefiniti",
+    "loading": "Caricamento…",
+    "retry": "Riprova",
+    "send": "Invia",
+    "download": "Scarica",
+    "print": "Stampa",
+    "copy": "Copia",
+    "options": "Opzioni"
+  },
+  "status": {
+    "active": "Attivo",
+    "inactive": "Inattivo",
+    "pending": "In attesa",
+    "completed": "Completato",
+    "cancelled": "Annullato",
+    "error": "Errore",
+    "success": "Successo"
+  },
+  "misc": {
+    "yes": "Sì",
+    "no": "No",
+    "unknown": "Sconosciuto",
+    "notInformed": "Non informato",
+    "comingSoon": "Prossimamente"
+  },
+  "commandPalette": {
+    "searchPlaceholder": "Cerca pagine, azioni, chat e clienti…",
+    "noResults": "Nessun risultato per “{{query}}”.",
+    "navigate": "naviga",
+    "openItem": "apri",
+    "clientFallback": "Cliente",
+    "groups": {
+      "pages": "Pagine",
+      "actions": "Azioni",
+      "conversations": "Chat",
+      "clients": "Clienti"
+    },
+    "actionsList": {
+      "newQuote": {
+        "label": "Nuovo preventivo",
+        "hint": "Apri Preventivi e IA"
+      },
+      "pdfTools": {
+        "label": "Strumenti PDF",
+        "hint": "Unisci, dividi, comprimi, firma…"
+      }
+    }
+  },
+  "topbar": {
+    "brandEyebrow": "Opta Files",
+    "openMenu": "Apri menu",
+    "searchPlaceholder": "Cerca cliente, pagina o azione…",
+    "notifications": "Notifiche",
+    "clear": "Cancella",
+    "noRecentNotifications": "Nessuna notifica recente.",
+    "status": {
+      "connecting": "Connessione…"
+    }
+  },
+  "sidebar": {
+    "closeMenu": "Chiudi menu",
+    "expandMenu": "Espandi menu",
+    "collapseMenu": "Comprimi menu",
+    "mockUser": {
+      "name": "João Motorista",
+      "role": "Responsabile Logistica"
+    }
+  }
+}

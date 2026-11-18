@@ -1,0 +1,23 @@
+{
+  "quote": {
+    "inventoryTitle": "INVENTARLISTE",
+    "ref": "REF",
+    "date": "DATUM",
+    "number": "NUMMER",
+    "package": "VERPACKUNG",
+    "condition": "ZUSTAND",
+    "description": "BESCHREIBUNG",
+    "value": "WERT",
+    "items": "ARTIKEL",
+    "total": "GESAMT",
+    "company": "UNTERNEHMEN",
+    "sign": "UNTERSCHRIFT",
+    "client": "KUNDE"
+  },
+  "receipt": {
+    "title": "BELEG"
+  },
+  "timesheet": {
+    "title": "STUNDENZETTEL"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "title": "Configuración",
+  "branding": {
+    "sectionTitle": "Marca / White Label",
+    "sectionDescription": "Personaliza la identidad visual del sistema — la marca se propaga por toda la interfaz y los PDF generados.",
+    "logoLabel": "Logo",
+    "logoHint": "PNG o SVG, proporción recomendada 1:1 a 3:1, máx. 2MB.",
+    "logoUpload": "Subir logo",
+    "logoRemove": "Quitar logo",
+    "logoInvalidRatio": "Proporción de imagen inválida. Usa un logo entre 1:1 y 3:1 para evitar distorsión.",
+    "logoTooLarge": "Archivo demasiado grande. Tamaño máximo: 2MB.",
+    "logoInvalidType": "Formato inválido. Sube un PNG, JPG o SVG.",
+    "companyNameLabel": "Nombre de la empresa",
+    "primaryColorLabel": "Color primario",
+    "secondaryColorLabel": "Color secundario",
+    "resetToDefault": "Restablecer valores predeterminados",
+    "logoProcessError": "No se pudo procesar la imagen."
+  },
+  "language": {
+    "sectionTitle": "Idioma",
+    "sectionDescription": "Elige el idioma de la interfaz y de los documentos generados.",
+    "selectLabel": "Idioma de la interfaz"
+  },
+  "backend": {
+    "sectionTitle": "Backend",
+    "urlLabel": "URL del backend (Socket.io + proxy)",
+    "urlPlaceholder": "http://127.0.0.1:3001",
+    "testConnection": "Probar conexiones",
+    "statusBackend": "Backend",
+    "statusEngine": "Motor PDF"
+  },
+  "modal": {
+    "title": "Configuración del sistema",
+    "description": "Conexiones y claves usadas por este panel."
+  },
+  "apiKeys": {
+    "sectionTitle": "Claves de API (vía .env)",
+    "googleMaps": "Google Maps",
+    "gemini": "Gemini",
+    "configured": "configurada",
+    "missing": "ausente",
+    "hintPrefix": "Edite",
+    "hintMiddle": "(vea",
+    "hintSuffix": ") y reinicie Vite."
+  },
+  "toast": {
+    "savedTitle": "Configuración guardada",
+    "savedDescription": "Recargue la página para aplicar el nuevo backend."
+  }
+}

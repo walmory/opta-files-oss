@@ -1,0 +1,191 @@
+@import "tailwindcss";
+
+/* ──────────────────────────────────────────────────────────────────────────
+   Opta Files — Design system (Tailwind v4 @theme)
+   Identidade: "Opta Violet" (marca) · "Opta Teal" (acento) · "Gold" (premium)
+   Neutros "Ink": escala slate re-tintada com leve violeta para coesão global.
+   ────────────────────────────────────────────────────────────────────────── */
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --font-display: "Outfit", "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+
+  /* Marca — Opta Violet */
+  --color-brand-50: #f4f2ff;
+  --color-brand-100: #e9e5ff;
+  --color-brand-200: #d6ceff;
+  --color-brand-300: #b8a9ff;
+  --color-brand-400: #957dfc;
+  --color-brand-500: #7655f3;
+  --color-brand-600: #5f3ae2;
+  --color-brand-700: #4e2bc2;
+  --color-brand-800: #41259e;
+  --color-brand-900: #36227e;
+  --color-brand-950: #201250;
+
+  /* Acento — Opta Teal (sucesso / online / ações secundárias) */
+  --color-accent-50: #ecfdf6;
+  --color-accent-100: #d1fae9;
+  --color-accent-200: #a7f3d5;
+  --color-accent-300: #6ee7bd;
+  --color-accent-400: #34d3a1;
+  --color-accent-500: #12b886;
+  --color-accent-600: #059c72;
+  --color-accent-700: #037c5c;
+  --color-accent-800: #05624a;
+  --color-accent-900: #06513e;
+
+  /* Gold — destaque premium (PRO, favoritos) */
+  --color-gold-50: #fff8e8;
+  --color-gold-100: #ffedc2;
+  --color-gold-200: #ffdd8a;
+  --color-gold-300: #ffc94d;
+  --color-gold-400: #fbb324;
+  --color-gold-500: #f0980c;
+  --color-gold-600: #d47707;
+  --color-gold-700: #b0560c;
+
+  /* Neutros "Ink" — sobrescreve a escala slate para toda a UI */
+  --color-slate-50: #f7f7fb;
+  --color-slate-100: #eeeef5;
+  --color-slate-200: #e2e2ec;
+  --color-slate-300: #cacada;
+  --color-slate-400: #9898b0;
+  --color-slate-500: #6f6f8a;
+  --color-slate-600: #53536d;
+  --color-slate-700: #3f3f56;
+  --color-slate-800: #2a2a3d;
+  --color-slate-900: #191929;
+  --color-slate-950: #0e0e1a;
+
+  --radius-xl: 0.875rem;
+  --radius-2xl: 1.125rem;
+  --radius-3xl: 1.5rem;
+
+  --shadow-card: 0 1px 2px rgb(25 25 41 / 0.04), 0 2px 6px -1px rgb(25 25 41 / 0.06);
+  --shadow-float: 0 14px 34px -14px rgb(25 25 41 / 0.24), 0 3px 10px -3px rgb(25 25 41 / 0.08);
+  --shadow-brand: 0 10px 28px -10px rgb(95 58 226 / 0.55);
+  --shadow-inset-top: inset 0 1px 0 rgb(255 255 255 / 0.6);
+}
+
+:root {
+  color-scheme: light;
+  --opta-gradient: linear-gradient(135deg, #7b5cff 0%, #5f3ae2 55%, #4a25d0 100%);
+  --opta-gradient-soft: linear-gradient(135deg, #f4f2ff 0%, #ffffff 60%, #ecfdf6 100%);
+}
+
+html, body, #root {
+  height: 100%;
+  width: 100%;
+}
+
+/* Nunca deixa a pagina rolar de lado: cada area rola dentro do proprio container. */
+html, body {
+  overflow-x: hidden;
+}
+
+body {
+  @apply bg-slate-50 text-slate-900 antialiased;
+  font-feature-settings: "cv11", "ss01", "tnum";
+  text-rendering: optimizeLegibility;
+}
+
+h1, h2, h3, .font-display {
+  font-family: var(--font-display);
+  letter-spacing: -0.02em;
+}
+
+::selection {
+  background: rgb(118 85 243 / 0.22);
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-brand-500);
+  outline-offset: 2px;
+}
+
+@layer utilities {
+  .custom-scrollbar::-webkit-scrollbar { width: 8px; height: 8px; }
+  .custom-scrollbar::-webkit-scrollbar-track { background: transparent; }
+  .custom-scrollbar::-webkit-scrollbar-thumb { background: rgb(202 202 218 / 0.9); border-radius: 999px; border: 2px solid transparent; background-clip: padding-box; }
+  .custom-scrollbar::-webkit-scrollbar-thumb:hover { background: rgb(152 152 176); background-clip: padding-box; border: 2px solid transparent; }
+  .scrollbar-hide::-webkit-scrollbar { display: none; }
+  .scrollbar-hide { -ms-overflow-style: none; scrollbar-width: none; }
+  .pac-container { z-index: 10000 !important; }
+
+  /* Superfícies */
+  .surface {
+    @apply bg-white border border-slate-200/70 rounded-2xl;
+    box-shadow: var(--shadow-card);
+  }
+  .surface-raised {
+    @apply bg-white border border-slate-200/70 rounded-2xl;
+    box-shadow: var(--shadow-float);
+  }
+  .glass {
+    background: rgb(255 255 255 / 0.78);
+    backdrop-filter: saturate(160%) blur(14px);
+    -webkit-backdrop-filter: saturate(160%) blur(14px);
+  }
+
+  /* Fundo de produto: grade pontilhada sutil + brilho da marca */
+  .canvas-grid {
+    background-color: var(--color-slate-50);
+    background-image:
+      radial-gradient(rgb(95 58 226 / 0.09) 1px, transparent 1px),
+      radial-gradient(1200px 500px at 12% -10%, rgb(118 85 243 / 0.10), transparent 60%),
+      radial-gradient(900px 400px at 100% 0%, rgb(18 184 134 / 0.08), transparent 55%);
+    background-size: 22px 22px, 100% 100%, 100% 100%;
+    background-position: 0 0, 0 0, 0 0;
+  }
+
+  /* Marca */
+  .brand-gradient { background-image: var(--opta-gradient); }
+  .brand-gradient-soft { background-image: var(--opta-gradient-soft); }
+  .text-gradient {
+    background-image: var(--opta-gradient);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+  .brand-hairline {
+    background-image: linear-gradient(90deg, transparent, rgb(118 85 243 / 0.45) 20%, rgb(18 184 134 / 0.45) 80%, transparent);
+    height: 1px;
+  }
+  .sheen { box-shadow: var(--shadow-inset-top), var(--shadow-card); }
+
+  .text-balance { text-wrap: balance; }
+  .tabular { font-variant-numeric: tabular-nums; }
+}
+
+/* Opacity-only. NUNCA usar transform em wrappers de página: viraria o containing
+   block de filhos position:fixed (DragOverlay do dnd-kit, modais) e os deslocaria. */
+@keyframes fade-in-up {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+@keyframes pulse-dot {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.35; }
+}
+@keyframes shimmer {
+  from { background-position: -200% 0; }
+  to { background-position: 200% 0; }
+}
+
+/* ---------------------------------------------------------------- phone input (sign-up) */
+.opta-phone {
+  --react-international-phone-height: 40px;
+  --react-international-phone-border-radius: 12px;
+  --react-international-phone-border-color: #e2e2ec;
+  --react-international-phone-font-size: 14px;
+  --react-international-phone-text-color: #191929;
+  --react-international-phone-country-selector-background-color-hover: #f4f2ff;
+  --react-international-phone-selected-dropdown-item-background-color: #f4f2ff;
+  --react-international-phone-dropdown-item-height: 32px;
+  width: 100%;
+}
+.opta-phone .react-international-phone-input { flex: 1; min-width: 0; }
+.opta-phone .react-international-phone-input:focus { border-color: #957dfc; box-shadow: 0 0 0 4px rgb(118 85 243 / 0.1); outline: none; }
+.opta-phone .react-international-phone-country-selector-dropdown { z-index: 120; border-radius: 12px; max-height: 240px; }
+.opta-phone--error { --react-international-phone-border-color: #fda4af; }

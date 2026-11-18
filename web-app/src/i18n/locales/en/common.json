@@ -1,0 +1,147 @@
+{
+  "app": {
+    "name": "Nexus"
+  },
+  "nav": {
+    "dashboard": "Dashboard",
+    "calendar": "Calendar",
+    "employees": "Employees",
+    "services": "Services",
+    "studio": "Studio",
+    "timesheet": "Timesheet",
+    "settings": "Settings",
+    "map": "Map",
+    "groups": {
+      "operations": "Operations",
+      "commercial": "Commercial",
+      "documents": "Documents",
+      "management": "Management"
+    },
+    "items": {
+      "overview": {
+        "label": "Overview",
+        "description": "KPIs, cash flow and today's operations"
+      },
+      "calendar": {
+        "label": "Calendar",
+        "description": "Operational moving schedule"
+      },
+      "routes": {
+        "label": "Matrix · Planner",
+        "description": "Route distribution and optimization"
+      },
+      "map": {
+        "label": "Control Tower",
+        "description": "Live fleet map"
+      },
+      "stubs": {
+        "label": "Stubs",
+        "description": "Driver receipts and progress"
+      },
+      "quotes": {
+        "label": "Quotes & AI",
+        "description": "Video analysis, proposals and pipeline"
+      },
+      "clients": {
+        "label": "Clients",
+        "description": "Client base and history"
+      },
+      "easyPdf": {
+        "label": "Easy PDF",
+        "description": "PDF tools, visual editor and history"
+      },
+      "finance": {
+        "label": "Finance",
+        "description": "Cash flow, expenses and billing"
+      },
+      "employees": {
+        "label": "Team",
+        "description": "Drivers, helpers and contractors"
+      }
+    }
+  },
+  "actions": {
+    "save": "Save",
+    "cancel": "Cancel",
+    "close": "Close",
+    "delete": "Delete",
+    "edit": "Edit",
+    "add": "Add",
+    "remove": "Remove",
+    "confirm": "Confirm",
+    "back": "Back",
+    "next": "Next",
+    "search": "Search",
+    "export": "Export",
+    "viewAll": "View all",
+    "viewReceipt": "View receipt",
+    "upload": "Upload",
+    "reset": "Reset to default",
+    "loading": "Loading…",
+    "retry": "Retry",
+    "send": "Send",
+    "download": "Download",
+    "print": "Print",
+    "copy": "Copy",
+    "options": "Options"
+  },
+  "status": {
+    "active": "Active",
+    "inactive": "Inactive",
+    "pending": "Pending",
+    "completed": "Completed",
+    "cancelled": "Cancelled",
+    "error": "Error",
+    "success": "Success"
+  },
+  "misc": {
+    "yes": "Yes",
+    "no": "No",
+    "unknown": "Unknown",
+    "notInformed": "Not informed",
+    "comingSoon": "Coming soon"
+  },
+  "commandPalette": {
+    "searchPlaceholder": "Search pages, actions, chats and clients…",
+    "noResults": "No results found for “{{query}}”.",
+    "navigate": "navigate",
+    "openItem": "open",
+    "clientFallback": "Client",
+    "groups": {
+      "pages": "Pages",
+      "actions": "Actions",
+      "conversations": "Chats",
+      "clients": "Clients"
+    },
+    "actionsList": {
+      "newQuote": {
+        "label": "New quote",
+        "hint": "Open Quotes & AI"
+      },
+      "pdfTools": {
+        "label": "PDF Tools",
+        "hint": "Merge, split, compress, sign…"
+      }
+    }
+  },
+  "topbar": {
+    "brandEyebrow": "Opta Files",
+    "openMenu": "Open menu",
+    "searchPlaceholder": "Search client, page or action…",
+    "notifications": "Notifications",
+    "clear": "Clear",
+    "noRecentNotifications": "No recent notifications.",
+    "status": {
+      "connecting": "Connecting…"
+    }
+  },
+  "sidebar": {
+    "closeMenu": "Close menu",
+    "expandMenu": "Expand menu",
+    "collapseMenu": "Collapse menu",
+    "mockUser": {
+      "name": "João Motorista",
+      "role": "Logistics Manager"
+    }
+  }
+}

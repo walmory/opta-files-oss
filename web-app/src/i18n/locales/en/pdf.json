@@ -1,0 +1,23 @@
+{
+  "quote": {
+    "inventoryTitle": "INVENTORY LIST",
+    "ref": "REF",
+    "date": "DATE",
+    "number": "NUMBER",
+    "package": "PACKAGE",
+    "condition": "CONDITION",
+    "description": "DESCRIPTION",
+    "value": "VALUE",
+    "items": "ITEMS",
+    "total": "TOTAL",
+    "company": "COMPANY",
+    "sign": "SIGN",
+    "client": "CLIENT"
+  },
+  "receipt": {
+    "title": "RECEIPT"
+  },
+  "timesheet": {
+    "title": "TIMESHEET"
+  }
+}

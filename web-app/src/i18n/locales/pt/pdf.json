@@ -1,0 +1,23 @@
+{
+  "quote": {
+    "inventoryTitle": "LISTA DE INVENTÁRIO",
+    "ref": "REF",
+    "date": "DATA",
+    "number": "NÚMERO",
+    "package": "PACOTE",
+    "condition": "CONDIÇÃO",
+    "description": "DESCRIÇÃO",
+    "value": "VALOR",
+    "items": "ITENS",
+    "total": "TOTAL",
+    "company": "EMPRESA",
+    "sign": "ASSINATURA",
+    "client": "CLIENTE"
+  },
+  "receipt": {
+    "title": "RECIBO"
+  },
+  "timesheet": {
+    "title": "FOLHA DE PONTO"
+  }
+}

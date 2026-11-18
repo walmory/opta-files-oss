@@ -1,0 +1,29 @@
+# Dependencies
+node_modules/
+package-lock.json.bak
+
+# Build output
+dist/
+dist-ssr/
+*.local
+
+# Env / secrets
+.env
+.env.*
+!.env.example
+
+# OS / editor
+.DS_Store
+.vscode/*
+!.vscode/extensions.json
+.idea
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Nested repo (managed separately)
+evolution-api/
+data/
+backend/data/

@@ -1,0 +1,23 @@
+{
+  "quote": {
+    "inventoryTitle": "LISTA DE INVENTARIO",
+    "ref": "REF",
+    "date": "FECHA",
+    "number": "NÚMERO",
+    "package": "EMBALAJE",
+    "condition": "ESTADO",
+    "description": "DESCRIPCIÓN",
+    "value": "VALOR",
+    "items": "ARTÍCULOS",
+    "total": "TOTAL",
+    "company": "EMPRESA",
+    "sign": "FIRMA",
+    "client": "CLIENTE"
+  },
+  "receipt": {
+    "title": "RECIBO"
+  },
+  "timesheet": {
+    "title": "REGISTRO HORARIO"
+  }
+}

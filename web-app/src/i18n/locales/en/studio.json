@@ -1,0 +1,227 @@
+{
+  "title": "Design Studio",
+  "templates": {
+    "blank": "Blank page",
+    "letterhead": "Letterhead",
+    "quote": "Quote",
+    "receipt": "Receipt",
+    "checklist": "Moving checklist",
+    "social": "Promotional post"
+  },
+  "toolbar": {
+    "text": "Text",
+    "image": "Image",
+    "rect": "Rectangle",
+    "line": "Line",
+    "save": "Save",
+    "export": "Export PDF"
+  },
+  "page": {
+    "newDocumentConfirm": "Discard unexported changes?",
+    "pdfOpened": "PDF opened in Studio",
+    "fileMenu": "File",
+    "newDocument": "New document",
+    "openPdf": "Open PDF",
+    "editableRecommended": "Editable (recommended)",
+    "editableDesc": "Text, fonts, colors and images become editable elements on every page.",
+    "overlay": "Overlay",
+    "overlayDesc": "Keeps the PDF as an image; edit on top of it.",
+    "saveDraft": "Save draft",
+    "draftSaved": "Draft saved",
+    "draftTooLarge": "Draft too large to save locally",
+    "exportPdf": "Export PDF",
+    "unsaved": "• not exported",
+    "undo": "Undo (⌘Z)",
+    "redo": "Redo (⇧⌘Z)",
+    "pages": "Pages",
+    "properties": "Properties",
+    "exitFullscreen": "Exit full screen (Esc)",
+    "fullscreen": "Full screen",
+    "draftBanner": "We found a saved Studio draft.",
+    "restore": "Restore",
+    "dismiss": "Dismiss",
+    "dropHere": "Drop a PDF here",
+    "dropDesc": "Text, fonts and images become editable. Also accepts images (JPG/PNG) and Word/Excel/PowerPoint documents.",
+    "selectFile": "Select file",
+    "blankDocument": "Blank document",
+    "dropOverlay": "Drop to open in Studio (PDF, image or Office)",
+    "prevPage": "Previous page (PageUp)",
+    "nextPage": "Next page (PageDown)",
+    "selected": "{{count}} selected",
+    "zoomOut": "Zoom out (⌘-)",
+    "zoomIn": "Zoom in (⌘+)",
+    "fitWidth": "Fit to width (⌘0)",
+    "fitPage": "Fit page",
+    "fitWidthOption": "Width",
+    "fitPageOption": "Page",
+    "importingPdf": "Importing PDF",
+    "searchContact": "Search contact…",
+    "exportSuccess": "PDF exported",
+    "exportSuccessDesc": "Also saved to Documents.",
+    "exportFail": "Failed to export",
+    "sendFail": "Failed to send",
+    "importSuccess": "Document opened in Studio",
+    "importOverlayNote": "{{name}} · pages preserved",
+    "importEditableNote": "{{name}} · editable text and images",
+    "importFail": "Could not import",
+    "documentDefaultName": "document"
+  },
+  "pagesPanel": {
+    "title": "Pages",
+    "moveUp": "Move up",
+    "moveDown": "Move down",
+    "duplicate": "Duplicate",
+    "delete": "Delete",
+    "confirmDelete": "Delete this page?",
+    "newPage": "New page"
+  },
+  "fontPicker": {
+    "catAll": "All",
+    "catSans": "Sans",
+    "catSerif": "Serif",
+    "catDisplay": "Display",
+    "catHandwriting": "Handwriting",
+    "catMono": "Mono",
+    "catPdf": "From PDF",
+    "fontLabel": "Font",
+    "searchPlaceholder": "Search font…",
+    "recent": "Recent",
+    "weights": "{{count}} weight(s)",
+    "noResults": "No fonts found.",
+    "embedNote": "Google Fonts are embedded in the exported PDF. Standard fonts (Helvetica, Times, Courier) don't need embedding."
+  },
+  "colorPicker": {
+    "noColor": "No color",
+    "moreColorsAria": "{{label}} — more colors",
+    "colorsLabel": "Colors",
+    "moreColorsTitle": "More colors"
+  },
+  "canvas": {
+    "ruler": {
+      "dragMargin": "Drag to adjust the margin"
+    }
+  },
+  "ribbon": {
+    "tabs": {
+      "home": "Home",
+      "insert": "Insert",
+      "draw": "Draw",
+      "layout": "Layout",
+      "view": "View"
+    },
+    "groups": {
+      "clipboard": "Clipboard",
+      "font": "Font",
+      "fontNextText": "Font (next text)",
+      "paragraph": "Paragraph",
+      "paragraphNextText": "Paragraph (next text)",
+      "styles": "Styles",
+      "edit": "Edit",
+      "text": "Text",
+      "illustrations": "Illustrations",
+      "pages": "Pages"
+    },
+    "paste": {
+      "label": "Paste",
+      "caption": "Ctrl+V"
+    },
+    "textBox": {
+      "label": "Text box",
+      "caption": "New"
+    },
+    "textBoxInsert": {
+      "label": "Text box",
+      "caption": "Insert"
+    },
+    "writeText": {
+      "label": "Write text",
+      "caption": "Freehand"
+    },
+    "image": {
+      "label": "Image",
+      "caption": "From device"
+    },
+    "icons": {
+      "label": "Icons",
+      "caption": "Library"
+    },
+    "newPage": {
+      "label": "New page",
+      "caption": "Blank"
+    },
+    "deletePage": {
+      "label": "Delete page",
+      "caption": "Current"
+    },
+    "duplicatePage": {
+      "label": "Duplicate page",
+      "caption": "Current"
+    },
+    "case": {
+      "none": "Original",
+      "uppercase": "UPPERCASE",
+      "lowercase": "lowercase",
+      "capitalize": "Capitalize Each Word"
+    },
+    "shapeNames": {
+      "rect": "Rectangle",
+      "rounded": "Rounded",
+      "circle": "Circle",
+      "line": "Line",
+      "arrow": "Arrow"
+    },
+    "shapeShort": {
+      "rect": "Rectangle",
+      "circle": "Circle",
+      "line": "Line",
+      "arrow": "Arrow"
+    },
+    "cut": "Cut",
+    "copy": "Copy",
+    "formatBrush": "Format painter",
+    "formatBrushActive": "Painter active",
+    "showRibbon": "Show ribbon",
+    "hideRibbon": "Hide ribbon",
+    "increaseFontSize": "Increase font size",
+    "decreaseFontSize": "Decrease font size",
+    "caseTitle": "Change case",
+    "clearFormat": "Clear formatting",
+    "bold": "Bold",
+    "italic": "Italic",
+    "underline": "Underline",
+    "strikethrough": "Strikethrough",
+    "subscript": "Subscript",
+    "superscript": "Superscript",
+    "highlightColor": "Highlight colour",
+    "noHighlight": "No highlight",
+    "fontColor": "Font colour",
+    "bullets": "Bullets",
+    "numbering": "Numbering",
+    "decreaseIndent": "Decrease indent",
+    "increaseIndent": "Increase indent",
+    "alignLeft": "Align left",
+    "alignCenter": "Centre",
+    "alignRight": "Align right",
+    "alignJustify": "Justify",
+    "lineSpacingTitle": "Line spacing",
+    "addSpaceBefore": "Add space before paragraph",
+    "addSpaceAfter": "Add space after paragraph",
+    "removeSpacing": "Remove spacing",
+    "shading": "Shading",
+    "noFill": "No fill",
+    "bordersTitle": "Borders",
+    "borderWidth": "{{width}} pt",
+    "noBorder": "No border",
+    "color": "Colour",
+    "delete": "Delete",
+    "duplicate": "Duplicate",
+    "bringToFront": "Bring to front",
+    "sendToBack": "Send to back",
+    "rotateCw": "Rotate 90° right",
+    "rotateCcw": "Rotate 90° left",
+    "templates": "Templates",
+    "shapesMenu": "Shapes",
+    "insertCenter": "Insert in centre",
+    "drawOnPage": "Draw on page"
+  }
+}

@@ -1,0 +1,147 @@
+{
+  "app": {
+    "name": "Nexus"
+  },
+  "nav": {
+    "dashboard": "Panel",
+    "calendar": "Calendario",
+    "employees": "Empleados",
+    "services": "Servicios",
+    "studio": "Estudio",
+    "timesheet": "Registro horario",
+    "settings": "Configuración",
+    "map": "Mapa",
+    "groups": {
+      "operations": "Operación",
+      "commercial": "Comercial",
+      "documents": "Documentos",
+      "management": "Gestión"
+    },
+    "items": {
+      "overview": {
+        "label": "Visión General",
+        "description": "KPIs, caja y operaciones del día"
+      },
+      "calendar": {
+        "label": "Calendario",
+        "description": "Agenda operativa de mudanzas"
+      },
+      "routes": {
+        "label": "Matrix · Planificador",
+        "description": "Distribución y optimización de rutas"
+      },
+      "map": {
+        "label": "Torre de Control",
+        "description": "Mapa en vivo de la flota"
+      },
+      "stubs": {
+        "label": "Comprobantes",
+        "description": "Recibos y progreso de los conductores"
+      },
+      "quotes": {
+        "label": "Presupuestos & IA",
+        "description": "Análisis de video, propuestas y pipeline"
+      },
+      "clients": {
+        "label": "Clientes",
+        "description": "Base de clientes e historial"
+      },
+      "easyPdf": {
+        "label": "Easy PDF",
+        "description": "Herramientas PDF, editor visual e historial"
+      },
+      "finance": {
+        "label": "Finanzas",
+        "description": "Flujo de caja, gastos y facturación"
+      },
+      "employees": {
+        "label": "Equipo",
+        "description": "Conductores, ayudantes y terceros"
+      }
+    }
+  },
+  "actions": {
+    "save": "Guardar",
+    "cancel": "Cancelar",
+    "close": "Cerrar",
+    "delete": "Eliminar",
+    "edit": "Editar",
+    "add": "Añadir",
+    "remove": "Quitar",
+    "confirm": "Confirmar",
+    "back": "Volver",
+    "next": "Siguiente",
+    "search": "Buscar",
+    "export": "Exportar",
+    "viewAll": "Ver todos",
+    "viewReceipt": "Ver comprobante",
+    "upload": "Subir",
+    "reset": "Restablecer valores predeterminados",
+    "loading": "Cargando…",
+    "retry": "Reintentar",
+    "send": "Enviar",
+    "download": "Descargar",
+    "print": "Imprimir",
+    "copy": "Copiar",
+    "options": "Opciones"
+  },
+  "status": {
+    "active": "Activo",
+    "inactive": "Inactivo",
+    "pending": "Pendiente",
+    "completed": "Completado",
+    "cancelled": "Cancelado",
+    "error": "Error",
+    "success": "Éxito"
+  },
+  "misc": {
+    "yes": "Sí",
+    "no": "No",
+    "unknown": "Desconocido",
+    "notInformed": "No informado",
+    "comingSoon": "Próximamente"
+  },
+  "commandPalette": {
+    "searchPlaceholder": "Buscar páginas, acciones, chats y clientes…",
+    "noResults": "No se encontraron resultados para “{{query}}”.",
+    "navigate": "navegar",
+    "openItem": "abrir",
+    "clientFallback": "Cliente",
+    "groups": {
+      "pages": "Páginas",
+      "actions": "Acciones",
+      "conversations": "Chats",
+      "clients": "Clientes"
+    },
+    "actionsList": {
+      "newQuote": {
+        "label": "Nuevo presupuesto",
+        "hint": "Abrir Presupuestos e IA"
+      },
+      "pdfTools": {
+        "label": "Herramientas PDF",
+        "hint": "Unir, dividir, comprimir, firmar…"
+      }
+    }
+  },
+  "topbar": {
+    "brandEyebrow": "Opta Files",
+    "openMenu": "Abrir menú",
+    "searchPlaceholder": "Buscar cliente, página o acción…",
+    "notifications": "Notificaciones",
+    "clear": "Borrar",
+    "noRecentNotifications": "No hay notificaciones recientes.",
+    "status": {
+      "connecting": "Conectando…"
+    }
+  },
+  "sidebar": {
+    "closeMenu": "Cerrar menú",
+    "expandMenu": "Expandir menú",
+    "collapseMenu": "Contraer menú",
+    "mockUser": {
+      "name": "João Motorista",
+      "role": "Gerente de Logística"
+    }
+  }
+}

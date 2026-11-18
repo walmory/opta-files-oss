@@ -1,0 +1,147 @@
+{
+  "app": {
+    "name": "Nexus"
+  },
+  "nav": {
+    "dashboard": "Tableau de bord",
+    "calendar": "Calendrier",
+    "employees": "Employés",
+    "services": "Services",
+    "studio": "Studio",
+    "timesheet": "Feuille de temps",
+    "settings": "Paramètres",
+    "map": "Carte",
+    "groups": {
+      "operations": "Opération",
+      "commercial": "Commercial",
+      "documents": "Documents",
+      "management": "Gestion"
+    },
+    "items": {
+      "overview": {
+        "label": "Vue d'ensemble",
+        "description": "KPI, trésorerie et opérations du jour"
+      },
+      "calendar": {
+        "label": "Calendrier",
+        "description": "Agenda opérationnel des déménagements"
+      },
+      "routes": {
+        "label": "Matrix · Planificateur",
+        "description": "Distribution et optimisation des itinéraires"
+      },
+      "map": {
+        "label": "Tour de contrôle",
+        "description": "Carte en direct de la flotte"
+      },
+      "stubs": {
+        "label": "Reçus",
+        "description": "Justificatifs et progression des chauffeurs"
+      },
+      "quotes": {
+        "label": "Devis & IA",
+        "description": "Analyse vidéo, propositions et pipeline"
+      },
+      "clients": {
+        "label": "Clients",
+        "description": "Base de clients et historique"
+      },
+      "easyPdf": {
+        "label": "Easy PDF",
+        "description": "Outils PDF, éditeur visuel et historique"
+      },
+      "finance": {
+        "label": "Finances",
+        "description": "Trésorerie, dépenses et facturation"
+      },
+      "employees": {
+        "label": "Équipe",
+        "description": "Chauffeurs, aides et sous-traitants"
+      }
+    }
+  },
+  "actions": {
+    "save": "Enregistrer",
+    "cancel": "Annuler",
+    "close": "Fermer",
+    "delete": "Supprimer",
+    "edit": "Modifier",
+    "add": "Ajouter",
+    "remove": "Retirer",
+    "confirm": "Confirmer",
+    "back": "Retour",
+    "next": "Suivant",
+    "search": "Rechercher",
+    "export": "Exporter",
+    "viewAll": "Voir tout",
+    "viewReceipt": "Voir le reçu",
+    "upload": "Téléverser",
+    "reset": "Réinitialiser",
+    "loading": "Chargement…",
+    "retry": "Réessayer",
+    "send": "Envoyer",
+    "download": "Télécharger",
+    "print": "Imprimer",
+    "copy": "Copier",
+    "options": "Options"
+  },
+  "status": {
+    "active": "Actif",
+    "inactive": "Inactif",
+    "pending": "En attente",
+    "completed": "Terminé",
+    "cancelled": "Annulé",
+    "error": "Erreur",
+    "success": "Succès"
+  },
+  "misc": {
+    "yes": "Oui",
+    "no": "Non",
+    "unknown": "Inconnu",
+    "notInformed": "Non renseigné",
+    "comingSoon": "Bientôt disponible"
+  },
+  "commandPalette": {
+    "searchPlaceholder": "Rechercher des pages, actions, discussions et clients…",
+    "noResults": "Aucun résultat pour « {{query}} ».",
+    "navigate": "naviguer",
+    "openItem": "ouvrir",
+    "clientFallback": "Client",
+    "groups": {
+      "pages": "Pages",
+      "actions": "Actions",
+      "conversations": "Discussions",
+      "clients": "Clients"
+    },
+    "actionsList": {
+      "newQuote": {
+        "label": "Nouveau devis",
+        "hint": "Ouvrir Devis et IA"
+      },
+      "pdfTools": {
+        "label": "Outils PDF",
+        "hint": "Fusionner, diviser, compresser, signer…"
+      }
+    }
+  },
+  "topbar": {
+    "brandEyebrow": "Opta Files",
+    "openMenu": "Ouvrir le menu",
+    "searchPlaceholder": "Rechercher un client, une page ou une action…",
+    "notifications": "Notifications",
+    "clear": "Effacer",
+    "noRecentNotifications": "Aucune notification récente.",
+    "status": {
+      "connecting": "Connexion…"
+    }
+  },
+  "sidebar": {
+    "closeMenu": "Fermer le menu",
+    "expandMenu": "Développer le menu",
+    "collapseMenu": "Réduire le menu",
+    "mockUser": {
+      "name": "João Motorista",
+      "role": "Responsable Logistique"
+    }
+  }
+}

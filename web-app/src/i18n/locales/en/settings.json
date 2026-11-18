@@ -1,0 +1,50 @@
+{
+  "title": "Settings",
+  "branding": {
+    "sectionTitle": "Brand / White Label",
+    "sectionDescription": "Customize the system's visual identity — the brand propagates across the entire interface and generated PDFs.",
+    "logoLabel": "Logo",
+    "logoHint": "PNG or SVG, recommended ratio 1:1 to 3:1, max 2MB.",
+    "logoUpload": "Upload logo",
+    "logoRemove": "Remove logo",
+    "logoInvalidRatio": "Invalid image ratio. Use a logo between 1:1 and 3:1 to avoid distortion.",
+    "logoTooLarge": "File too large. Maximum size: 2MB.",
+    "logoInvalidType": "Invalid format. Upload a PNG, JPG or SVG.",
+    "companyNameLabel": "Company name",
+    "primaryColorLabel": "Primary color",
+    "secondaryColorLabel": "Secondary color",
+    "resetToDefault": "Reset to default",
+    "logoProcessError": "Could not process the image."
+  },
+  "language": {
+    "sectionTitle": "Language",
+    "sectionDescription": "Choose the interface and generated document language.",
+    "selectLabel": "Interface language"
+  },
+  "backend": {
+    "sectionTitle": "Backend",
+    "urlLabel": "Backend URL (Socket.io + proxy)",
+    "urlPlaceholder": "http://127.0.0.1:3001",
+    "testConnection": "Test connections",
+    "statusBackend": "Backend",
+    "statusEngine": "PDF engine"
+  },
+  "modal": {
+    "title": "System settings",
+    "description": "Connections and keys used by this panel."
+  },
+  "apiKeys": {
+    "sectionTitle": "API keys (via .env)",
+    "googleMaps": "Google Maps",
+    "gemini": "Gemini",
+    "configured": "configured",
+    "missing": "missing",
+    "hintPrefix": "Edit",
+    "hintMiddle": "(see",
+    "hintSuffix": ") and restart Vite."
+  },
+  "toast": {
+    "savedTitle": "Settings saved",
+    "savedDescription": "Reload the page to apply the new backend."
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "title": "Einstellungen",
+  "branding": {
+    "sectionTitle": "Marke / White Label",
+    "sectionDescription": "Passen Sie die visuelle Identität des Systems an — die Marke wird auf die gesamte Oberfläche und die generierten PDFs übertragen.",
+    "logoLabel": "Logo",
+    "logoHint": "PNG oder SVG, empfohlenes Seitenverhältnis 1:1 bis 3:1, max. 2MB.",
+    "logoUpload": "Logo hochladen",
+    "logoRemove": "Logo entfernen",
+    "logoInvalidRatio": "Ungültiges Bildverhältnis. Verwenden Sie ein Logo zwischen 1:1 und 3:1, um Verzerrungen zu vermeiden.",
+    "logoTooLarge": "Datei zu groß. Maximale Größe: 2MB.",
+    "logoInvalidType": "Ungültiges Format. Laden Sie ein PNG, JPG oder SVG hoch.",
+    "companyNameLabel": "Firmenname",
+    "primaryColorLabel": "Primärfarbe",
+    "secondaryColorLabel": "Sekundärfarbe",
+    "resetToDefault": "Auf Standard zurücksetzen",
+    "logoProcessError": "Das Bild konnte nicht verarbeitet werden."
+  },
+  "language": {
+    "sectionTitle": "Sprache",
+    "sectionDescription": "Wählen Sie die Sprache der Oberfläche und der generierten Dokumente.",
+    "selectLabel": "Oberflächensprache"
+  },
+  "backend": {
+    "sectionTitle": "Backend",
+    "urlLabel": "Backend-URL (Socket.io + Proxy)",
+    "urlPlaceholder": "http://127.0.0.1:3001",
+    "testConnection": "Verbindungen testen",
+    "statusBackend": "Backend",
+    "statusEngine": "PDF-Engine"
+  },
+  "modal": {
+    "title": "Systemeinstellungen",
+    "description": "Verbindungen und Schlüssel, die von diesem Panel verwendet werden."
+  },
+  "apiKeys": {
+    "sectionTitle": "API-Schlüssel (über .env)",
+    "googleMaps": "Google Maps",
+    "gemini": "Gemini",
+    "configured": "konfiguriert",
+    "missing": "fehlt",
+    "hintPrefix": "Bearbeiten Sie",
+    "hintMiddle": "(siehe",
+    "hintSuffix": ") und starten Sie Vite neu."
+  },
+  "toast": {
+    "savedTitle": "Einstellungen gespeichert",
+    "savedDescription": "Laden Sie die Seite neu, um das neue Backend zu übernehmen."
+  }
+}

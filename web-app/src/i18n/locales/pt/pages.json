@@ -1,0 +1,723 @@
+{
+  "stubs": {
+    "title": "Motoristas",
+    "viewAll": "Ver todos",
+    "header": {
+      "title": "Gestão de Canhotos",
+      "subtitle": "Acompanhamento de comprovantes e auditoria"
+    },
+    "tabs": {
+      "progress": "Progresso",
+      "list": "Lista Geral"
+    },
+    "summary": {
+      "dailyGoal": "Meta Diária",
+      "totalExpected": "Total Esperado",
+      "vsYesterday": "+12% vs ontem",
+      "actionRequired": "Ação Necessária",
+      "pendingScan": "Pendentes de Scan"
+    },
+    "teamPerformance": {
+      "title": "Desempenho da Equipe",
+      "subtitle": "Clique em um motorista para ver detalhes",
+      "total": "Total",
+      "done": "Feitos",
+      "missing": "Faltam"
+    },
+    "driverDetail": {
+      "subtitle": "Detalhes dos canhotos e entregas",
+      "totalDeliveries": "Total Entregas",
+      "scanned": "Escaneados",
+      "pending": "Pendentes",
+      "progress": "Progresso",
+      "recentStubs": "Canhotos Recentes"
+    },
+    "filters": {
+      "searchPlaceholder": "Buscar por Número da NF ou motorista...",
+      "allDrivers": "Todos os Motoristas",
+      "allStatuses": "Todos os Status",
+      "export": "Exportar"
+    },
+    "table": {
+      "nfNumber": "Número da NF",
+      "dateTime": "Data/Hora",
+      "date": "Data",
+      "driver": "Motorista",
+      "status": "Status",
+      "action": "Ação",
+      "actions": "Ações",
+      "viewReceipt": "Ver Comprovante",
+      "approve": "Aprovar",
+      "reject": "Rejeitar",
+      "emptyState": "Nenhum canhoto encontrado com os filtros atuais."
+    },
+    "status": {
+      "approved": "Aprovado",
+      "rejected": "Rejeitado",
+      "pending": "Pendentes",
+      "approvedPlural": "Aprovados",
+      "rejectedPlural": "Rejeitados"
+    },
+    "manualEntry": {
+      "buttonLabel": "Lançamento Manual",
+      "title": "Lançamento Manual",
+      "nfLabel": "Número da NF",
+      "digitsOnly": "Digite apenas números",
+      "digitsCount": "{{count}}/7 dígitos",
+      "photoLabel": "Foto do Canhoto",
+      "removeFile": "Remover arquivo",
+      "uploadFile": "Enviar arquivo",
+      "dragAndDrop": "ou arraste e solte",
+      "fileHint": "PNG, JPG, GIF até 10MB",
+      "cancel": "Cancelar",
+      "save": "Salvar Lançamento",
+      "errors": {
+        "nfLength": "O número da NF deve ter exatamente 7 dígitos.",
+        "missingFile": "Por favor, anexe uma imagem do canhoto."
+      },
+      "successMessage": "Canhoto NF {{nf}} lançado com sucesso!"
+    }
+  },
+  "employees": {
+    "title": "Funcionários",
+    "header": {
+      "title": "Equipe",
+      "subtitle": "Gerencie motoristas, ajudantes e parceiros",
+      "newMember": "Novo Membro"
+    },
+    "messages": {
+      "memberAdded": "Membro cadastrado com sucesso!"
+    },
+    "roles": {
+      "driver": "Motorista",
+      "helper": "Ajudante",
+      "admin": "Admin"
+    },
+    "list": {
+      "noPhone": "Sem telefone",
+      "teamPrefix": "Equipe: {{name}}",
+      "noTeam": "Sem equipe",
+      "admission": "Admissão",
+      "admissionDate": "12 Jan, 2024",
+      "addNew": "Adicionar Novo Membro"
+    },
+    "modal": {
+      "title": "Novo Membro",
+      "fullName": "Nome Completo",
+      "fullNamePlaceholder": "Ex: João Silva",
+      "photoUrl": "Foto URL (Opcional)",
+      "photoUrlPlaceholder": "https://...",
+      "role": "Cargo",
+      "phone": "Telefone",
+      "phonePlaceholder": "(00) 00000-0000",
+      "email": "Email",
+      "emailPlaceholder": "email@exemplo.com",
+      "cancel": "Cancelar",
+      "confirm": "Confirmar Cadastro"
+    },
+    "profile": {
+      "cancel": "Cancelar",
+      "save": "Salvar",
+      "editProfile": "Editar Perfil",
+      "active": "Ativo",
+      "contact": "Contato",
+      "notAvailable": "N/A",
+      "email": "Email",
+      "team": "Equipe",
+      "admission": "Admissão",
+      "fields": {
+        "name": "Nome",
+        "photoUrl": "Foto URL",
+        "role": "Cargo",
+        "phone": "Telefone",
+        "email": "Email"
+      }
+    }
+  },
+  "services": {
+    "title": "Serviços",
+    "management": {
+      "heading": "Gestão de Orçamentos",
+      "subtitle": "Pipeline de vendas e propostas comerciais",
+      "newQuote": "Novo Orçamento"
+    },
+    "view": {
+      "list": "Visualização em Lista",
+      "kanban": "Visualização em Quadro (Kanban)"
+    },
+    "search": {
+      "placeholder": "Buscar cliente..."
+    },
+    "tabs": {
+      "all": "Todos",
+      "draft": "Pendentes",
+      "waitingAnalysis": "Análise",
+      "proposalSent": "Enviados",
+      "waitingCustomer": "Resposta",
+      "proposalRejected": "Recusados"
+    },
+    "status": {
+      "draft": "Pendente",
+      "waitingAnalysis": "Esperando Análise",
+      "analysisApproved": "Aprovado (Standby)",
+      "proposalSent": "Proposta Enviada",
+      "waitingCustomer": "Aguardando Resposta",
+      "proposalRejected": "Proposta Recusada"
+    },
+    "table": {
+      "source": "Fonte",
+      "id": "ID",
+      "clientRoute": "Cliente / Rota",
+      "value": "Valor",
+      "date": "Data",
+      "status": "Status",
+      "actions": "Ações",
+      "empty": "Nenhum orçamento encontrado.",
+      "na": "N/A",
+      "pdfGenerated": "PDF Gerado",
+      "pdf": "PDF",
+      "editAnalyze": "Editar / Analisar",
+      "view": "Visualizar",
+      "sendQuote": "Enviar Orçamento",
+      "delete": "Excluir",
+      "edit": "Editar"
+    },
+    "client": {
+      "defaultName": "Cliente Desconhecido"
+    },
+    "newLead": {
+      "defaultName": "Novo Cliente"
+    },
+    "sidebar": {
+      "saveDraft": "Salvar Rascunho",
+      "save": "Salvar",
+      "customerData": "Dados do Cliente",
+      "name": "Nome",
+      "namePlaceholder": "Nome do Cliente",
+      "phone": "Telefone",
+      "phonePlaceholder": "Telefone",
+      "email": "Email",
+      "emailPlaceholder": "Email do Cliente",
+      "currentStatus": "Status Atual",
+      "createdOn": "Criado em:",
+      "routeConfig": "Configuração de Rota",
+      "origin": "Origem",
+      "originPlaceholder": "Endereço de retirada...",
+      "destination": "Destino",
+      "destinationPlaceholder": "Endereço de entrega...",
+      "distance": "Distância",
+      "km": "KM",
+      "mi": "MI",
+      "cargoDetails": "Detalhes da Carga",
+      "volume": "Volume",
+      "volumePlaceholder": "Ex: 45 m³",
+      "priceLabel": "Valor (£)",
+      "pricePlaceholder": "£ 0.00",
+      "sendProposal": "Enviar Proposta"
+    },
+    "alerts": {
+      "analysisRequired": "É necessário realizar a análise primeiro.",
+      "sentSuccess": "Orçamento enviado com sucesso para {{name}}!",
+      "sendErrorUnknown": "Erro desconhecido",
+      "connectionError": "Erro de conexão com o servidor backend.",
+      "processError": "Erro ao processar envio.",
+      "confirmDelete": "Tem certeza que deseja excluir este orçamento?",
+      "draftSaved": "Rascunho salvo com sucesso!"
+    }
+  },
+  "dashboard": {
+    "title": "Painel",
+    "header": {
+      "title": "Visão Geral",
+      "subtitle": "Bem-vindo de volta, João. Aqui está o que está acontecendo hoje."
+    },
+    "kpi": {
+      "monthlyRevenue": "Receita Mensal",
+      "monthlyRevenueSubtitle": "vs. £ 37,800 mês anterior",
+      "fleetPlanned": "Frota planejada (Matrix)",
+      "noPlanSaved": "Nenhum plano salvo ainda",
+      "stopsForecast": "{{stops}} paradas · {{minutes}} previstas",
+      "crmFunnel": "Funil CRM",
+      "deals": "{{count}} negócios",
+      "sentClosed": "{{sent}} orçamentos enviados · £ {{won}} fechados",
+      "operationalCost": "Custo Operacional",
+      "slightlyAboveTarget": "Ligeiramente acima da meta"
+    },
+    "cashflow": {
+      "title": "Fluxo de Caixa",
+      "range12m": "12 Meses",
+      "range30d": "30 Dias"
+    },
+    "operations": {
+      "todayPlan": "Plano de rotas de hoje",
+      "recentOps": "Operações Recentes",
+      "openMatrix": "Abrir Matrix",
+      "viewAll": "Ver Todas",
+      "noVehicle": "Sem veículo",
+      "services": "serviços",
+      "firstStop": "1ª parada: {{client}} · {{date}}",
+      "time": "Horário",
+      "client": "Cliente",
+      "driver": "Motorista",
+      "vehicle": "Veículo",
+      "status": "Status",
+      "idLabel": "ID: #{{id}}"
+    },
+    "efficiency": {
+      "title": "Eficiência Semanal",
+      "tooltipLabel": "Eficiência",
+      "weeklyAverage": "Média Semanal"
+    },
+    "funnel": {
+      "title": "Funil de negócios",
+      "openPipeline": "Abrir pipeline",
+      "routeToDefine": "Rota a definir"
+    },
+    "controlTower": {
+      "open": "Abrir Torre de Controle"
+    },
+    "status": {
+      "enRoute": "Em Rota",
+      "completed": "Concluído",
+      "delayed": "Atrasado",
+      "pending": "Pendente"
+    }
+  },
+  "calendar": {
+    "title": "Calendário",
+    "today": "Hoje",
+    "close": "Fechar",
+    "header": {
+      "title": "Calendário Operacional",
+      "subtitle": "Planejamento e alocação de serviços",
+      "newAppointment": "Novo Agendamento",
+      "scheduleManagement": "Gestão de Agendamentos"
+    },
+    "viewModes": {
+      "month": "Mês",
+      "week": "Semana",
+      "day": "Dia",
+      "list": "Lista"
+    },
+    "filters": {
+      "allEmployees": "Todos Funcionários",
+      "noGrouping": "Sem Agrupamento",
+      "groupByRoute": "Agrupar por Rota"
+    },
+    "status": {
+      "completed": "Concluído",
+      "in_progress": "Em andamento",
+      "pending": "Pendente",
+      "failed": "Falhou"
+    },
+    "weekdaysFull": [
+      "Domingo",
+      "Segunda",
+      "Terça",
+      "Quarta",
+      "Quinta",
+      "Sexta",
+      "Sábado"
+    ],
+    "weekdaysShort": [
+      "Dom",
+      "Seg",
+      "Ter",
+      "Qua",
+      "Qui",
+      "Sex",
+      "Sáb"
+    ],
+    "dayCell": {
+      "more_one": "+{{count}} mais",
+      "more_other": "+{{count}} mais"
+    },
+    "emptyState": {
+      "noServicesMonth": "Nenhum serviço agendado neste mês",
+      "noServicesDay": "Nenhum serviço agendado neste dia"
+    },
+    "listView": {
+      "serviceCount_one": "{{count}} serviço",
+      "serviceCount_other": "{{count}} serviços"
+    },
+    "dayModal": {
+      "ariaLabel": "Serviços de {{date}}",
+      "scheduledCount_one": "{{count}} serviço agendado",
+      "scheduledCount_other": "{{count}} serviços agendados"
+    }
+  },
+  "clientList": {
+    "confirmDelete": "Tem certeza que deseja remover este cliente?",
+    "header": {
+      "title": "Gestão de Clientes",
+      "totalLabel": "Total",
+      "searchPlaceholder": "Buscar nome, telefone, tags...",
+      "newClientButton": "Novo Cliente"
+    },
+    "emptyState": {
+      "title": "Nenhum cliente encontrado",
+      "subtitle": "Tente buscar por outro termo ou adicione um novo."
+    },
+    "section": {
+      "locationLabel": "Local do atendimento",
+      "clientCountSingular": "cliente",
+      "clientCountPlural": "clientes"
+    },
+    "card": {
+      "noPhone": "Sem telefone",
+      "vipTitle": "Cliente VIP/Fechado",
+      "editTitle": "Editar"
+    },
+    "tags": {
+      "importedLead": "Lead Importado",
+      "new": "Novo"
+    },
+    "modal": {
+      "editTitle": "Editar Contato",
+      "newTitle": "Novo Cliente",
+      "deleteTitle": "Excluir",
+      "cancelButton": "Cancelar",
+      "saveButton": "Salvar",
+      "createButton": "Criar",
+      "sections": {
+        "identity": "Identidade",
+        "location": "Localização",
+        "classification": "Classificação"
+      },
+      "fields": {
+        "namePlaceholder": "Nome Completo",
+        "phonePlaceholder": "Telefone",
+        "emailPlaceholder": "Email",
+        "addressPlaceholder": "Buscar endereço no Google...",
+        "cityPlaceholder": "Cidade",
+        "postalCodePlaceholder": "Código Postal",
+        "tagsPlaceholder": "Etiquetas (ex: Lead, Frio, Importado)",
+        "tagsHint": "Separe as etiquetas por vírgula",
+        "notesPlaceholder": "Observações..."
+      }
+    }
+  },
+  "phoneInput": {
+    "placeholder": "Telefone"
+  },
+  "financial": {
+    "header": {
+      "title": "Painel Financeiro",
+      "subtitle": "Visão geral de desempenho, fluxo de caixa e despesas",
+      "searchPlaceholder": "Buscar transação...",
+      "export": "Exportar"
+    },
+    "kpi": {
+      "vsLastMonth": "vs. mês anterior"
+    },
+    "cashflow": {
+      "title": "Fluxo de Caixa",
+      "range12m": "12 Meses",
+      "range30d": "30 Dias",
+      "income": "Receita",
+      "expense": "Despesas"
+    },
+    "filters": {
+      "all": "Tudo",
+      "income": "Entradas",
+      "expense": "Saídas",
+      "fuel": "Abastecimento",
+      "salary": "Salários",
+      "extras": "Extras"
+    },
+    "table": {
+      "title": "Transações Recentes",
+      "description": "Descrição",
+      "category": "Categoria",
+      "date": "Data",
+      "amount": "Valor",
+      "idLabel": "ID: #{{id}}",
+      "empty": "Nenhuma transação encontrada nesta categoria."
+    },
+    "breakdown": {
+      "title": "Breakdown de Custos",
+      "total": "Total"
+    },
+    "payroll": {
+      "title": "Folha de Pagamento",
+      "driver": "Motorista",
+      "addPayment": "Adicionar Pagamento"
+    },
+    "categories": {
+      "fuel": "Combustível",
+      "salary": "Salário",
+      "deposit": "Sinal",
+      "rental": "Aluguel",
+      "service": "Serviço",
+      "maintenance": "Manutenção"
+    }
+  },
+  "decryptedMedia": {
+    "loadFailed": "Falha ao carregar",
+    "openOriginal": "Abrir Original",
+    "image": "Imagem",
+    "pdfPreview": "PDF Preview",
+    "document": "Documento",
+    "openPdfNewTab": "Abrir PDF em nova aba",
+    "pdfDoc": "PDF / DOC"
+  },
+  "liveMap": {
+    "header": {
+      "title": "Central de Rastreamento",
+      "subtitle": "Execution Hub - Gerencie pedidos e acompanhe a frota em tempo real",
+      "tabExecution": "Pedidos Ativos",
+      "tabMap": "Frota em Tempo Real"
+    },
+    "stats": {
+      "activeOrders": "Pedidos Ativos",
+      "inTransit": "Em Trânsito",
+      "delayed": "Atrasados",
+      "deliveredToday": "Entregues Hoje"
+    },
+    "filters": {
+      "all": "Todos Ativos",
+      "delayed": "Atrasados",
+      "inTransit": "Em Trânsito",
+      "delivered": "Histórico",
+      "customs": "Alfândega",
+      "dateTo": "até",
+      "searchPlaceholder": "Buscar pedido, cliente ou nota..."
+    },
+    "table": {
+      "client": "Cliente / ID",
+      "route": "Rota",
+      "status": "Status",
+      "update": "Atualização",
+      "action": "Ação"
+    },
+    "actions": {
+      "viewOnMap": "Ver no Mapa",
+      "viewDetails": "Ver Detalhes",
+      "updateStatus": "Atualizar Status",
+      "sendMessage": "Enviar Mensagem",
+      "selected": "Selecionados",
+      "recenterMap": "Centralizar Mapa"
+    },
+    "empty": {
+      "title": "Nenhum pedido encontrado",
+      "subtitle": "Tente ajustar seus filtros ou busca."
+    },
+    "status": {
+      "delayed": "Atrasado",
+      "inTransit": "Em Trânsito",
+      "customs": "Alfândega",
+      "collected": "Coletado",
+      "delivered": "Entregue"
+    },
+    "mapPanel": {
+      "filtersTitle": "Filtros",
+      "ownFleet": "Frota Própria",
+      "showAll": "Mostrar Todos",
+      "outsourced": "Terceirizados",
+      "connected": "Conectado",
+      "disconnected": "Desconectado",
+      "completedServices": "{{count}} serviços concluídos",
+      "onLunch": "em almoço"
+    },
+    "driver": {
+      "unknown": "Motorista Desconhecido"
+    },
+    "trackingModal": {
+      "defaultPlate": "ABC-1234",
+      "defaultEta": "--:--"
+    },
+    "justNow": "Agora mesmo"
+  },
+  "easyPdf": {
+    "title": "Easy PDF",
+    "badgePro": "Pro",
+    "subtitle": "Ferramentas PDF · Design Studio · Documentos",
+    "tabs": {
+      "tools": "Ferramentas",
+      "editor": "Design Studio",
+      "studio": "Studio",
+      "docs": "Documentos"
+    },
+    "status": {
+      "tooltip": "Status do serviço (clique para atualizar)",
+      "brand": "Opta Cloud",
+      "online": "online",
+      "offline": "offline",
+      "checking": "…"
+    }
+  },
+  "routes": {
+    "mapPreview": {
+      "pickupPoint": "Ponto de Coleta",
+      "deliveryPoint": "Ponto de Entrega",
+      "notDefined": "Não definido"
+    },
+    "driverPreview": {
+      "organizeRoute": "Organizar Rota",
+      "organizeHint": "Arraste os cards para reordenar a sequência (Coleta/Entrega).",
+      "optimizeTooltip": "Otimizar sequência automaticamente",
+      "optimize": "Otimizar",
+      "noVehicle": "Sem veículo",
+      "stopsCount": "{{count}} paradas",
+      "noServicesAssigned": "Nenhum serviço atribuído a este motorista.",
+      "pickup": "Coleta",
+      "delivery": "Entrega",
+      "deleteService": "Excluir serviço"
+    },
+    "distribution": {
+      "title": "Mesa de Distribuição",
+      "subtitle": "Planejamento estratégico de frota e entregas",
+      "assignServices": "Atribuir {{count}} Serviços",
+      "searchPlaceholder": "Buscar Cliente, Endereço ou ID...",
+      "allRegions": "Todas as Regiões",
+      "selectAll": "Selecionar Todos",
+      "selectedCount": "{{count}} selecionados",
+      "unassigned": "Não atribuído",
+      "viewOnMap": "Ver no mapa",
+      "availableFleet": "Frota Disponível",
+      "broadcasting": "Broadcasting",
+      "outsourced": "Terceirizados",
+      "ownFleet": "Frota Própria",
+      "noVehicle": "Sem veículo",
+      "servicesCount": "{{count}} serviços",
+      "removeOutsourced": "Remover terceirizado",
+      "removeOutsourcedConfirm": "Remover terceirizado \"{{name}}\"?"
+    }
+  },
+  "driverTracking": {
+    "modal": {
+      "title": "Acompanhar Motorista",
+      "enRouteTo": "Em rota para",
+      "recenterTooltip": "Recentrar Rota (Visão Macro)",
+      "pickupLabel": "Coleta",
+      "deliveryLabel": "Entrega",
+      "vehicleModel": "Mercedes-Benz Sprinter",
+      "estimatedArrival": "Chegada Estimada",
+      "callDriver": "Ligar para Motorista",
+      "closeMap": "Fechar Mapa"
+    },
+    "panel": {
+      "orderLabel": "Order #{{id}}",
+      "national": "Nacional",
+      "international": "Internacional",
+      "updateStatus": "Atualizar Status",
+      "defaultDriverName": "Motorista",
+      "confirmStepMessage": "Confirme a conclusão desta etapa para notificar o cliente.",
+      "track": "Rastrear",
+      "complete": "Concluir",
+      "lastEditLabel": "Última edição:",
+      "lastEditValue": "Hoje, 14:30",
+      "cancel": "Cancelar",
+      "saveChanges": "Salvar Alterações",
+      "steps": {
+        "orderConfirmedTitle": "Pedido Confirmado",
+        "orderConfirmedDescription": "O pedido foi processado e validado pelo sistema central.",
+        "collectedTitle": "Coletado",
+        "collectedDescriptionIntl": "Mercadoria retirada em {{origin}} e enviada ao porto.",
+        "collectedDescriptionNat": "Coleta realizada em {{origin}} pela equipe local.",
+        "inTransitIntlTitle": "Em Trânsito Internacional",
+        "inTransitIntlDescription": "Carga embarcada (Navio/Aéreo) de {{originCode}} para {{destinationCode}}.",
+        "customsTitle": "Alfândega",
+        "customsDescription": "Processo de liberação aduaneira e verificação documental.",
+        "deliveredTitle": "Entregue",
+        "deliveredDescription": "Recebido em {{destination}} com assinatura digital.",
+        "inTransitTitle": "Em Trânsito",
+        "inTransitDescription": "Motorista em rota para o endereço de entrega."
+      }
+    }
+  },
+  "mapPreview": {
+    "loadError": "Não foi possível carregar o mapa",
+    "loadErrorHint": "Verifique a conexão ou a chave da API do Google Maps.",
+    "loadingMap": "Carregando mapa...",
+    "dialogAriaLabel": "Rota do serviço de {{clientName}}",
+    "routeSummary": "{{distance}} · {{duration}} de carro",
+    "calculatingRoute": "Calculando rota...",
+    "singlePickupPoint": "Ponto único de coleta",
+    "close": "Fechar",
+    "pickupMarkerLabel": "Coleta",
+    "deliveryMarkerLabel": "Entrega",
+    "routeCalculationError": "Não foi possível calcular a rota entre os pontos.",
+    "pickupPointLabel": "Ponto de Coleta",
+    "deliveryPointLabel": "Ponto de Entrega",
+    "notDefined": "Não definido",
+    "openInGoogleMaps": "Abrir no Google Maps"
+  },
+  "leadDetails": {
+    "unknownClient": "Cliente Desconhecido",
+    "notInformed": "Não informado",
+    "pending": "Pendente",
+    "stagePrefix": "Estágio {{stage}}",
+    "clientNamePlaceholder": "Nome do Cliente",
+    "routeDetails": "Detalhes da Rota",
+    "origin": "Origem",
+    "originPlaceholder": "Endereço de origem",
+    "destination": "Destino",
+    "destinationPlaceholder": "Endereço de destino",
+    "estimatedValue": "Valor Estimado",
+    "valuePlaceholder": "Ex: £ 150.00",
+    "volume": "Volume",
+    "creationDate": "Data Criação",
+    "contact": "Contato",
+    "phonePlaceholder": "Telefone",
+    "noPhone": "Sem telefone",
+    "emailPlaceholder": "Email",
+    "noEmail": "Sem email",
+    "cancel": "Cancelar",
+    "saveChanges": "Salvar Alterações",
+    "edit": "Editar",
+    "viewQuotePdf": "Ver Orçamento PDF"
+  },
+  "quotePreview": {
+    "defaultClient": "Cliente",
+    "pdfGenerationFailed": "Falha ao gerar PDF",
+    "noItemsForPdf": "Sem itens para gerar o PDF.",
+    "generatingPdf": "Gerando PDF...",
+    "quoteValue": "Valor do Orçamento",
+    "itemsInPdf": "Itens no PDF",
+    "totalVolume": "Volume total",
+    "downloadPdf": "Baixar PDF",
+    "closePreview": "Fechar Visualização",
+    "pdfPreviewTitle": "Preview PDF"
+  },
+  "aiQuoteAnalyzer": {
+    "newItem": "Novo Item",
+    "selectVideoError": "Por favor, selecione um vídeo para analisar.",
+    "analysisFailed": "Falha na análise. Tente novamente.",
+    "analyzingAccessRealtime": "Analisando acesso em tempo real...",
+    "realtimeAnalysis": "Análise em Tempo Real...",
+    "live": "Ao Vivo",
+    "defaultClient": "Cliente",
+    "notInformed": "Não informado",
+    "title": "Análise de Orçamento com IA",
+    "poweredBy": "Powered by",
+    "uploadVideo": "Carregar Vídeo",
+    "startAnalysis": "Iniciar Análise",
+    "processing": "Processando... {{progress}}%",
+    "completed": "Concluído",
+    "waitingForVideo": "Aguardando Vídeo",
+    "uploadVideoToStart": "Carregue um vídeo para iniciar a vistoria.",
+    "recAnalysing": "REC ● ANALYSING",
+    "standby": "STANDBY",
+    "summary": "Resumo",
+    "inventory": "Inventário",
+    "loadSummary": "Resumo de Carga",
+    "cubicMeters": "Metros Cúbicos",
+    "totalItems": "Itens Totais",
+    "suggestedVehicle": "Veículo Sugerido:",
+    "restrictedAccess": "Acesso Restrito",
+    "freeAccess": "Acesso Livre",
+    "narrowPassagesDetected": "Detectamos passagens estreitas (< 80cm).",
+    "noCriticalBlockage": "Nenhum bloqueio crítico detectado.",
+    "parking": "Estacionamento",
+    "approxDistance": "Distância aprox.:",
+    "itemsByRoom": "Itens por Cômodo",
+    "saveEdit": "Salvar Edição",
+    "editList": "Editar Lista",
+    "add": "Adicionar",
+    "resultsWillAppearHere": "Resultados da análise aparecerão aqui.",
+    "generatePdf": "Gerar PDF",
+    "reviewPdf": "Revisar PDF",
+    "downloadPdf": "Baixar PDF"
+  }
+}

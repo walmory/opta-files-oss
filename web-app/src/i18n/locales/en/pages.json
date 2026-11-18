@@ -1,0 +1,723 @@
+{
+  "stubs": {
+    "title": "Moves",
+    "viewAll": "View all",
+    "header": {
+      "title": "Delivery Slip Management",
+      "subtitle": "Proof of delivery tracking and auditing"
+    },
+    "tabs": {
+      "progress": "Progress",
+      "list": "Full List"
+    },
+    "summary": {
+      "dailyGoal": "Daily Goal",
+      "totalExpected": "Total Expected",
+      "vsYesterday": "+12% vs yesterday",
+      "actionRequired": "Action Required",
+      "pendingScan": "Pending Scan"
+    },
+    "teamPerformance": {
+      "title": "Team Performance",
+      "subtitle": "Click a driver to see details",
+      "total": "Total",
+      "done": "Done",
+      "missing": "Missing"
+    },
+    "driverDetail": {
+      "subtitle": "Delivery slip and delivery details",
+      "totalDeliveries": "Total Deliveries",
+      "scanned": "Scanned",
+      "pending": "Pending",
+      "progress": "Progress",
+      "recentStubs": "Recent Delivery Slips"
+    },
+    "filters": {
+      "searchPlaceholder": "Search by invoice number or driver...",
+      "allDrivers": "All Drivers",
+      "allStatuses": "All Statuses",
+      "export": "Export"
+    },
+    "table": {
+      "nfNumber": "Invoice Number",
+      "dateTime": "Date/Time",
+      "date": "Date",
+      "driver": "Driver",
+      "status": "Status",
+      "action": "Action",
+      "actions": "Actions",
+      "viewReceipt": "View Receipt",
+      "approve": "Approve",
+      "reject": "Reject",
+      "emptyState": "No delivery slips found with the current filters."
+    },
+    "status": {
+      "approved": "Approved",
+      "rejected": "Rejected",
+      "pending": "Pending",
+      "approvedPlural": "Approved",
+      "rejectedPlural": "Rejected"
+    },
+    "manualEntry": {
+      "buttonLabel": "Manual Entry",
+      "title": "Manual Entry",
+      "nfLabel": "Invoice Number",
+      "digitsOnly": "Enter numbers only",
+      "digitsCount": "{{count}}/7 digits",
+      "photoLabel": "Delivery Slip Photo",
+      "removeFile": "Remove file",
+      "uploadFile": "Upload file",
+      "dragAndDrop": "or drag and drop",
+      "fileHint": "PNG, JPG, GIF up to 10MB",
+      "cancel": "Cancel",
+      "save": "Save Entry",
+      "errors": {
+        "nfLength": "The invoice number must have exactly 7 digits.",
+        "missingFile": "Please attach an image of the delivery slip."
+      },
+      "successMessage": "Invoice {{nf}} delivery slip submitted successfully!"
+    }
+  },
+  "employees": {
+    "title": "Employees",
+    "header": {
+      "title": "Team",
+      "subtitle": "Manage drivers, helpers and partners",
+      "newMember": "New Member"
+    },
+    "messages": {
+      "memberAdded": "Member registered successfully!"
+    },
+    "roles": {
+      "driver": "Driver",
+      "helper": "Helper",
+      "admin": "Admin"
+    },
+    "list": {
+      "noPhone": "No phone",
+      "teamPrefix": "Team: {{name}}",
+      "noTeam": "No team",
+      "admission": "Admission",
+      "admissionDate": "Jan 12, 2024",
+      "addNew": "Add New Member"
+    },
+    "modal": {
+      "title": "New Member",
+      "fullName": "Full Name",
+      "fullNamePlaceholder": "e.g. John Smith",
+      "photoUrl": "Photo URL (Optional)",
+      "photoUrlPlaceholder": "https://...",
+      "role": "Role",
+      "phone": "Phone",
+      "phonePlaceholder": "(00) 00000-0000",
+      "email": "Email",
+      "emailPlaceholder": "email@example.com",
+      "cancel": "Cancel",
+      "confirm": "Confirm Registration"
+    },
+    "profile": {
+      "cancel": "Cancel",
+      "save": "Save",
+      "editProfile": "Edit Profile",
+      "active": "Active",
+      "contact": "Contact",
+      "notAvailable": "N/A",
+      "email": "Email",
+      "team": "Team",
+      "admission": "Admission",
+      "fields": {
+        "name": "Name",
+        "photoUrl": "Photo URL",
+        "role": "Role",
+        "phone": "Phone",
+        "email": "Email"
+      }
+    }
+  },
+  "services": {
+    "title": "Services",
+    "management": {
+      "heading": "Quote Management",
+      "subtitle": "Sales pipeline and commercial proposals",
+      "newQuote": "New Quote"
+    },
+    "view": {
+      "list": "List View",
+      "kanban": "Board View (Kanban)"
+    },
+    "search": {
+      "placeholder": "Search client..."
+    },
+    "tabs": {
+      "all": "All",
+      "draft": "Pending",
+      "waitingAnalysis": "Analysis",
+      "proposalSent": "Sent",
+      "waitingCustomer": "Response",
+      "proposalRejected": "Rejected"
+    },
+    "status": {
+      "draft": "Pending",
+      "waitingAnalysis": "Awaiting Analysis",
+      "analysisApproved": "Approved (Standby)",
+      "proposalSent": "Proposal Sent",
+      "waitingCustomer": "Awaiting Response",
+      "proposalRejected": "Proposal Rejected"
+    },
+    "table": {
+      "source": "Source",
+      "id": "ID",
+      "clientRoute": "Client / Route",
+      "value": "Value",
+      "date": "Date",
+      "status": "Status",
+      "actions": "Actions",
+      "empty": "No quotes found.",
+      "na": "N/A",
+      "pdfGenerated": "PDF Generated",
+      "pdf": "PDF",
+      "editAnalyze": "Edit / Analyze",
+      "view": "View",
+      "sendQuote": "Send Quote",
+      "delete": "Delete",
+      "edit": "Edit"
+    },
+    "client": {
+      "defaultName": "Unknown Client"
+    },
+    "newLead": {
+      "defaultName": "New Client"
+    },
+    "sidebar": {
+      "saveDraft": "Save Draft",
+      "save": "Save",
+      "customerData": "Customer Data",
+      "name": "Name",
+      "namePlaceholder": "Client Name",
+      "phone": "Phone",
+      "phonePlaceholder": "Phone",
+      "email": "Email",
+      "emailPlaceholder": "Client Email",
+      "currentStatus": "Current Status",
+      "createdOn": "Created on:",
+      "routeConfig": "Route Configuration",
+      "origin": "Origin",
+      "originPlaceholder": "Pickup address...",
+      "destination": "Destination",
+      "destinationPlaceholder": "Delivery address...",
+      "distance": "Distance",
+      "km": "KM",
+      "mi": "MI",
+      "cargoDetails": "Cargo Details",
+      "volume": "Volume",
+      "volumePlaceholder": "e.g. 45 m³",
+      "priceLabel": "Value (£)",
+      "pricePlaceholder": "£ 0.00",
+      "sendProposal": "Send Proposal"
+    },
+    "alerts": {
+      "analysisRequired": "The analysis must be performed first.",
+      "sentSuccess": "Quote successfully sent to {{name}}!",
+      "sendErrorUnknown": "Unknown error",
+      "connectionError": "Error connecting to the backend server.",
+      "processError": "Error processing the send.",
+      "confirmDelete": "Are you sure you want to delete this quote?",
+      "draftSaved": "Draft saved successfully!"
+    }
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "header": {
+      "title": "Overview",
+      "subtitle": "Welcome back, John. Here's what's happening today."
+    },
+    "kpi": {
+      "monthlyRevenue": "Monthly Revenue",
+      "monthlyRevenueSubtitle": "vs. £ 37,800 last month",
+      "fleetPlanned": "Fleet planned (Matrix)",
+      "noPlanSaved": "No plan saved yet",
+      "stopsForecast": "{{stops}} stops · {{minutes}} forecast",
+      "crmFunnel": "CRM Funnel",
+      "deals": "{{count}} deals",
+      "sentClosed": "{{sent}} quotes sent · £ {{won}} closed",
+      "operationalCost": "Operating Cost",
+      "slightlyAboveTarget": "Slightly above target"
+    },
+    "cashflow": {
+      "title": "Cash Flow",
+      "range12m": "12 Months",
+      "range30d": "30 Days"
+    },
+    "operations": {
+      "todayPlan": "Today's route plan",
+      "recentOps": "Recent Operations",
+      "openMatrix": "Open Matrix",
+      "viewAll": "View All",
+      "noVehicle": "No vehicle",
+      "services": "services",
+      "firstStop": "1st stop: {{client}} · {{date}}",
+      "time": "Time",
+      "client": "Client",
+      "driver": "Driver",
+      "vehicle": "Vehicle",
+      "status": "Status",
+      "idLabel": "ID: #{{id}}"
+    },
+    "efficiency": {
+      "title": "Weekly Efficiency",
+      "tooltipLabel": "Efficiency",
+      "weeklyAverage": "Weekly Average"
+    },
+    "funnel": {
+      "title": "Deal Funnel",
+      "openPipeline": "Open pipeline",
+      "routeToDefine": "Route to be defined"
+    },
+    "controlTower": {
+      "open": "Open Control Tower"
+    },
+    "status": {
+      "enRoute": "En Route",
+      "completed": "Completed",
+      "delayed": "Delayed",
+      "pending": "Pending"
+    }
+  },
+  "calendar": {
+    "title": "Calendar",
+    "today": "Today",
+    "close": "Close",
+    "header": {
+      "title": "Operational Calendar",
+      "subtitle": "Service planning and allocation",
+      "newAppointment": "New Appointment",
+      "scheduleManagement": "Schedule Management"
+    },
+    "viewModes": {
+      "month": "Month",
+      "week": "Week",
+      "day": "Day",
+      "list": "List"
+    },
+    "filters": {
+      "allEmployees": "All Employees",
+      "noGrouping": "No Grouping",
+      "groupByRoute": "Group by Route"
+    },
+    "status": {
+      "completed": "Completed",
+      "in_progress": "In progress",
+      "pending": "Pending",
+      "failed": "Failed"
+    },
+    "weekdaysFull": [
+      "Sunday",
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday"
+    ],
+    "weekdaysShort": [
+      "Sun",
+      "Mon",
+      "Tue",
+      "Wed",
+      "Thu",
+      "Fri",
+      "Sat"
+    ],
+    "dayCell": {
+      "more_one": "+{{count}} more",
+      "more_other": "+{{count}} more"
+    },
+    "emptyState": {
+      "noServicesMonth": "No services scheduled this month",
+      "noServicesDay": "No services scheduled this day"
+    },
+    "listView": {
+      "serviceCount_one": "{{count}} service",
+      "serviceCount_other": "{{count}} services"
+    },
+    "dayModal": {
+      "ariaLabel": "Services for {{date}}",
+      "scheduledCount_one": "{{count}} service scheduled",
+      "scheduledCount_other": "{{count}} services scheduled"
+    }
+  },
+  "clientList": {
+    "confirmDelete": "Are you sure you want to remove this client?",
+    "header": {
+      "title": "Client Management",
+      "totalLabel": "Total",
+      "searchPlaceholder": "Search name, phone, tags...",
+      "newClientButton": "New Client"
+    },
+    "emptyState": {
+      "title": "No clients found",
+      "subtitle": "Try searching for another term or add a new one."
+    },
+    "section": {
+      "locationLabel": "Service location",
+      "clientCountSingular": "client",
+      "clientCountPlural": "clients"
+    },
+    "card": {
+      "noPhone": "No phone",
+      "vipTitle": "VIP/Closed Client",
+      "editTitle": "Edit"
+    },
+    "tags": {
+      "importedLead": "Imported Lead",
+      "new": "New"
+    },
+    "modal": {
+      "editTitle": "Edit Contact",
+      "newTitle": "New Client",
+      "deleteTitle": "Delete",
+      "cancelButton": "Cancel",
+      "saveButton": "Save",
+      "createButton": "Create",
+      "sections": {
+        "identity": "Identity",
+        "location": "Location",
+        "classification": "Classification"
+      },
+      "fields": {
+        "namePlaceholder": "Full Name",
+        "phonePlaceholder": "Phone",
+        "emailPlaceholder": "Email",
+        "addressPlaceholder": "Search address on Google...",
+        "cityPlaceholder": "City",
+        "postalCodePlaceholder": "Postal Code",
+        "tagsPlaceholder": "Tags (e.g. Lead, Cold, Imported)",
+        "tagsHint": "Separate tags with a comma",
+        "notesPlaceholder": "Notes..."
+      }
+    }
+  },
+  "phoneInput": {
+    "placeholder": "Phone"
+  },
+  "financial": {
+    "header": {
+      "title": "Financial Dashboard",
+      "subtitle": "Overview of performance, cash flow and expenses",
+      "searchPlaceholder": "Search transaction...",
+      "export": "Export"
+    },
+    "kpi": {
+      "vsLastMonth": "vs. last month"
+    },
+    "cashflow": {
+      "title": "Cash Flow",
+      "range12m": "12 Months",
+      "range30d": "30 Days",
+      "income": "Income",
+      "expense": "Expenses"
+    },
+    "filters": {
+      "all": "All",
+      "income": "Income",
+      "expense": "Expenses",
+      "fuel": "Fuel",
+      "salary": "Salaries",
+      "extras": "Extras"
+    },
+    "table": {
+      "title": "Recent Transactions",
+      "description": "Description",
+      "category": "Category",
+      "date": "Date",
+      "amount": "Amount",
+      "idLabel": "ID: #{{id}}",
+      "empty": "No transactions found in this category."
+    },
+    "breakdown": {
+      "title": "Cost Breakdown",
+      "total": "Total"
+    },
+    "payroll": {
+      "title": "Payroll",
+      "driver": "Driver",
+      "addPayment": "Add Payment"
+    },
+    "categories": {
+      "fuel": "Fuel",
+      "salary": "Salary",
+      "deposit": "Deposit",
+      "rental": "Rental",
+      "service": "Service",
+      "maintenance": "Maintenance"
+    }
+  },
+  "decryptedMedia": {
+    "loadFailed": "Failed to load",
+    "openOriginal": "Open Original",
+    "image": "Image",
+    "pdfPreview": "PDF Preview",
+    "document": "Document",
+    "openPdfNewTab": "Open PDF in new tab",
+    "pdfDoc": "PDF / DOC"
+  },
+  "liveMap": {
+    "header": {
+      "title": "Tracking Center",
+      "subtitle": "Execution Hub - Manage orders and track the fleet in real time",
+      "tabExecution": "Active Orders",
+      "tabMap": "Real-Time Fleet"
+    },
+    "stats": {
+      "activeOrders": "Active Orders",
+      "inTransit": "In Transit",
+      "delayed": "Delayed",
+      "deliveredToday": "Delivered Today"
+    },
+    "filters": {
+      "all": "All Active",
+      "delayed": "Delayed",
+      "inTransit": "In Transit",
+      "delivered": "History",
+      "customs": "Customs",
+      "dateTo": "to",
+      "searchPlaceholder": "Search order, client or note..."
+    },
+    "table": {
+      "client": "Client / ID",
+      "route": "Route",
+      "status": "Status",
+      "update": "Update",
+      "action": "Action"
+    },
+    "actions": {
+      "viewOnMap": "View on Map",
+      "viewDetails": "View Details",
+      "updateStatus": "Update Status",
+      "sendMessage": "Send Message",
+      "selected": "Selected",
+      "recenterMap": "Recenter Map"
+    },
+    "empty": {
+      "title": "No orders found",
+      "subtitle": "Try adjusting your filters or search."
+    },
+    "status": {
+      "delayed": "Delayed",
+      "inTransit": "In Transit",
+      "customs": "Customs",
+      "collected": "Collected",
+      "delivered": "Delivered"
+    },
+    "mapPanel": {
+      "filtersTitle": "Filters",
+      "ownFleet": "Own Fleet",
+      "showAll": "Show All",
+      "outsourced": "Outsourced",
+      "connected": "Connected",
+      "disconnected": "Disconnected",
+      "completedServices": "{{count}} services completed",
+      "onLunch": "on lunch break"
+    },
+    "driver": {
+      "unknown": "Unknown Driver"
+    },
+    "trackingModal": {
+      "defaultPlate": "ABC-1234",
+      "defaultEta": "--:--"
+    },
+    "justNow": "Just now"
+  },
+  "easyPdf": {
+    "title": "Easy PDF",
+    "badgePro": "Pro",
+    "subtitle": "PDF tools · Design Studio · Documents",
+    "tabs": {
+      "tools": "Tools",
+      "editor": "Design Studio",
+      "studio": "Studio",
+      "docs": "Documents"
+    },
+    "status": {
+      "tooltip": "Service status (click to refresh)",
+      "brand": "Opta Cloud",
+      "online": "online",
+      "offline": "offline",
+      "checking": "…"
+    }
+  },
+  "routes": {
+    "mapPreview": {
+      "pickupPoint": "Pickup Point",
+      "deliveryPoint": "Delivery Point",
+      "notDefined": "Not defined"
+    },
+    "driverPreview": {
+      "organizeRoute": "Organize Route",
+      "organizeHint": "Drag the cards to reorder the sequence (Pickup/Delivery).",
+      "optimizeTooltip": "Automatically optimize sequence",
+      "optimize": "Optimize",
+      "noVehicle": "No vehicle",
+      "stopsCount": "{{count}} stops",
+      "noServicesAssigned": "No services assigned to this driver.",
+      "pickup": "Pickup",
+      "delivery": "Delivery",
+      "deleteService": "Delete service"
+    },
+    "distribution": {
+      "title": "Distribution Board",
+      "subtitle": "Strategic fleet and delivery planning",
+      "assignServices": "Assign {{count}} Services",
+      "searchPlaceholder": "Search Client, Address or ID...",
+      "allRegions": "All Regions",
+      "selectAll": "Select All",
+      "selectedCount": "{{count}} selected",
+      "unassigned": "Unassigned",
+      "viewOnMap": "View on map",
+      "availableFleet": "Available Fleet",
+      "broadcasting": "Broadcasting",
+      "outsourced": "Outsourced",
+      "ownFleet": "Own Fleet",
+      "noVehicle": "No vehicle",
+      "servicesCount": "{{count}} services",
+      "removeOutsourced": "Remove outsourced",
+      "removeOutsourcedConfirm": "Remove outsourced \"{{name}}\"?"
+    }
+  },
+  "driverTracking": {
+    "modal": {
+      "title": "Track Driver",
+      "enRouteTo": "En route to",
+      "recenterTooltip": "Recenter Route (Overview)",
+      "pickupLabel": "Pickup",
+      "deliveryLabel": "Delivery",
+      "vehicleModel": "Mercedes-Benz Sprinter",
+      "estimatedArrival": "Estimated Arrival",
+      "callDriver": "Call Driver",
+      "closeMap": "Close Map"
+    },
+    "panel": {
+      "orderLabel": "Order #{{id}}",
+      "national": "Domestic",
+      "international": "International",
+      "updateStatus": "Update Status",
+      "defaultDriverName": "Driver",
+      "confirmStepMessage": "Confirm completion of this step to notify the client.",
+      "track": "Track",
+      "complete": "Complete",
+      "lastEditLabel": "Last edited:",
+      "lastEditValue": "Today, 14:30",
+      "cancel": "Cancel",
+      "saveChanges": "Save Changes",
+      "steps": {
+        "orderConfirmedTitle": "Order Confirmed",
+        "orderConfirmedDescription": "The order has been processed and validated by the central system.",
+        "collectedTitle": "Collected",
+        "collectedDescriptionIntl": "Goods picked up in {{origin}} and sent to the port.",
+        "collectedDescriptionNat": "Pickup completed in {{origin}} by the local team.",
+        "inTransitIntlTitle": "International Transit",
+        "inTransitIntlDescription": "Cargo shipped (Sea/Air) from {{originCode}} to {{destinationCode}}.",
+        "customsTitle": "Customs",
+        "customsDescription": "Customs clearance process and documentation verification.",
+        "deliveredTitle": "Delivered",
+        "deliveredDescription": "Received in {{destination}} with digital signature.",
+        "inTransitTitle": "In Transit",
+        "inTransitDescription": "Driver en route to the delivery address."
+      }
+    }
+  },
+  "mapPreview": {
+    "loadError": "Unable to load the map",
+    "loadErrorHint": "Check your connection or the Google Maps API key.",
+    "loadingMap": "Loading map...",
+    "dialogAriaLabel": "Route for {{clientName}}'s service",
+    "routeSummary": "{{distance}} · {{duration}} by car",
+    "calculatingRoute": "Calculating route...",
+    "singlePickupPoint": "Single pickup point",
+    "close": "Close",
+    "pickupMarkerLabel": "Pickup",
+    "deliveryMarkerLabel": "Delivery",
+    "routeCalculationError": "Unable to calculate the route between the points.",
+    "pickupPointLabel": "Pickup Point",
+    "deliveryPointLabel": "Delivery Point",
+    "notDefined": "Not defined",
+    "openInGoogleMaps": "Open in Google Maps"
+  },
+  "leadDetails": {
+    "unknownClient": "Unknown Client",
+    "notInformed": "Not informed",
+    "pending": "Pending",
+    "stagePrefix": "Stage {{stage}}",
+    "clientNamePlaceholder": "Client Name",
+    "routeDetails": "Route Details",
+    "origin": "Origin",
+    "originPlaceholder": "Origin address",
+    "destination": "Destination",
+    "destinationPlaceholder": "Destination address",
+    "estimatedValue": "Estimated Value",
+    "valuePlaceholder": "e.g. £ 150.00",
+    "volume": "Volume",
+    "creationDate": "Creation Date",
+    "contact": "Contact",
+    "phonePlaceholder": "Phone",
+    "noPhone": "No phone",
+    "emailPlaceholder": "Email",
+    "noEmail": "No email",
+    "cancel": "Cancel",
+    "saveChanges": "Save Changes",
+    "edit": "Edit",
+    "viewQuotePdf": "View Quote PDF"
+  },
+  "quotePreview": {
+    "defaultClient": "Client",
+    "pdfGenerationFailed": "Failed to generate PDF",
+    "noItemsForPdf": "No items to generate the PDF.",
+    "generatingPdf": "Generating PDF...",
+    "quoteValue": "Quote Value",
+    "itemsInPdf": "Items in PDF",
+    "totalVolume": "Total volume",
+    "downloadPdf": "Download PDF",
+    "closePreview": "Close Preview",
+    "pdfPreviewTitle": "PDF Preview"
+  },
+  "aiQuoteAnalyzer": {
+    "newItem": "New Item",
+    "selectVideoError": "Please select a video to analyze.",
+    "analysisFailed": "Analysis failed. Please try again.",
+    "analyzingAccessRealtime": "Analyzing access in real time...",
+    "realtimeAnalysis": "Real-Time Analysis...",
+    "live": "Live",
+    "defaultClient": "Client",
+    "notInformed": "Not informed",
+    "title": "AI Quote Analysis",
+    "poweredBy": "Powered by",
+    "uploadVideo": "Upload Video",
+    "startAnalysis": "Start Analysis",
+    "processing": "Processing... {{progress}}%",
+    "completed": "Completed",
+    "waitingForVideo": "Waiting for Video",
+    "uploadVideoToStart": "Upload a video to start the survey.",
+    "recAnalysing": "REC ● ANALYSING",
+    "standby": "STANDBY",
+    "summary": "Summary",
+    "inventory": "Inventory",
+    "loadSummary": "Load Summary",
+    "cubicMeters": "Cubic Meters",
+    "totalItems": "Total Items",
+    "suggestedVehicle": "Suggested Vehicle:",
+    "restrictedAccess": "Restricted Access",
+    "freeAccess": "Free Access",
+    "narrowPassagesDetected": "We detected narrow passages (< 80cm).",
+    "noCriticalBlockage": "No critical blockage detected.",
+    "parking": "Parking",
+    "approxDistance": "Approx. distance:",
+    "itemsByRoom": "Items by Room",
+    "saveEdit": "Save Edit",
+    "editList": "Edit List",
+    "add": "Add",
+    "resultsWillAppearHere": "Analysis results will appear here.",
+    "generatePdf": "Generate PDF",
+    "reviewPdf": "Review PDF",
+    "downloadPdf": "Download PDF"
+  }
+}

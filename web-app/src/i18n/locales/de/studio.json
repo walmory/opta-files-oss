@@ -1,0 +1,227 @@
+{
+  "title": "Design-Studio",
+  "templates": {
+    "blank": "Leere Seite",
+    "letterhead": "Briefkopf",
+    "quote": "Angebot",
+    "receipt": "Beleg",
+    "checklist": "Umzugscheckliste",
+    "social": "Werbebeitrag"
+  },
+  "toolbar": {
+    "text": "Text",
+    "image": "Bild",
+    "rect": "Rechteck",
+    "line": "Linie",
+    "save": "Speichern",
+    "export": "PDF exportieren"
+  },
+  "page": {
+    "newDocumentConfirm": "Nicht exportierte Änderungen verwerfen?",
+    "pdfOpened": "PDF in Studio geöffnet",
+    "fileMenu": "Datei",
+    "newDocument": "Neues Dokument",
+    "openPdf": "PDF öffnen",
+    "editableRecommended": "Bearbeitbar (empfohlen)",
+    "editableDesc": "Texte, Schriftarten, Farben und Bilder werden auf allen Seiten zu bearbeitbaren Elementen.",
+    "overlay": "Überlagern",
+    "overlayDesc": "Behält das PDF als Bild bei; bearbeiten Sie darüber.",
+    "saveDraft": "Entwurf speichern",
+    "draftSaved": "Entwurf gespeichert",
+    "draftTooLarge": "Entwurf zu groß, um lokal gespeichert zu werden",
+    "exportPdf": "PDF exportieren",
+    "unsaved": "• nicht exportiert",
+    "undo": "Rückgängig (⌘Z)",
+    "redo": "Wiederholen (⇧⌘Z)",
+    "pages": "Seiten",
+    "properties": "Eigenschaften",
+    "exitFullscreen": "Vollbild beenden (Esc)",
+    "fullscreen": "Vollbild",
+    "draftBanner": "Wir haben einen gespeicherten Studio-Entwurf gefunden.",
+    "restore": "Wiederherstellen",
+    "dismiss": "Verwerfen",
+    "dropHere": "PDF hier ablegen",
+    "dropDesc": "Texte, Schriftarten und Bilder werden bearbeitbar. Akzeptiert auch Bilder (JPG/PNG) und Word-/Excel-/PowerPoint-Dokumente.",
+    "selectFile": "Datei auswählen",
+    "blankDocument": "Leeres Dokument",
+    "dropOverlay": "Ablegen, um in Studio zu öffnen (PDF, Bild oder Office)",
+    "prevPage": "Vorherige Seite (PageUp)",
+    "nextPage": "Nächste Seite (PageDown)",
+    "selected": "{{count}} ausgewählt",
+    "zoomOut": "Verkleinern (⌘-)",
+    "zoomIn": "Vergrößern (⌘+)",
+    "fitWidth": "An Breite anpassen (⌘0)",
+    "fitPage": "Ganze Seite",
+    "fitWidthOption": "Breite",
+    "fitPageOption": "Seite",
+    "importingPdf": "PDF wird importiert",
+    "searchContact": "Kontakt suchen…",
+    "exportSuccess": "PDF exportiert",
+    "exportSuccessDesc": "Auch in Dokumente gespeichert.",
+    "exportFail": "Export fehlgeschlagen",
+    "sendFail": "Senden fehlgeschlagen",
+    "importSuccess": "Dokument in Studio geöffnet",
+    "importOverlayNote": "{{name}} · Seiten beibehalten",
+    "importEditableNote": "{{name}} · bearbeitbare Texte und Bilder",
+    "importFail": "Import nicht möglich",
+    "documentDefaultName": "Dokument"
+  },
+  "pagesPanel": {
+    "title": "Seiten",
+    "moveUp": "Nach oben verschieben",
+    "moveDown": "Nach unten verschieben",
+    "duplicate": "Duplizieren",
+    "delete": "Löschen",
+    "confirmDelete": "Diese Seite löschen?",
+    "newPage": "Neue Seite"
+  },
+  "fontPicker": {
+    "catAll": "Alle",
+    "catSans": "Sans",
+    "catSerif": "Serif",
+    "catDisplay": "Display",
+    "catHandwriting": "Handschrift",
+    "catMono": "Mono",
+    "catPdf": "Aus PDF",
+    "fontLabel": "Schriftart",
+    "searchPlaceholder": "Schriftart suchen…",
+    "recent": "Zuletzt verwendet",
+    "weights": "{{count}} Schnitt(e)",
+    "noResults": "Keine Schriftarten gefunden.",
+    "embedNote": "Google Fonts werden in das exportierte PDF eingebettet. Standardschriften (Helvetica, Times, Courier) müssen nicht eingebettet werden."
+  },
+  "colorPicker": {
+    "noColor": "Keine Farbe",
+    "moreColorsAria": "{{label}} — weitere Farben",
+    "colorsLabel": "Farben",
+    "moreColorsTitle": "Weitere Farben"
+  },
+  "canvas": {
+    "ruler": {
+      "dragMargin": "Ziehen, um den Rand anzupassen"
+    }
+  },
+  "ribbon": {
+    "tabs": {
+      "home": "Start",
+      "insert": "Einfügen",
+      "draw": "Zeichnen",
+      "layout": "Layout",
+      "view": "Ansicht"
+    },
+    "groups": {
+      "clipboard": "Zwischenablage",
+      "font": "Schriftart",
+      "fontNextText": "Schriftart (nächster Text)",
+      "paragraph": "Absatz",
+      "paragraphNextText": "Absatz (nächster Text)",
+      "styles": "Formatvorlagen",
+      "edit": "Bearbeiten",
+      "text": "Text",
+      "illustrations": "Illustrationen",
+      "pages": "Seiten"
+    },
+    "paste": {
+      "label": "Einfügen",
+      "caption": "Strg+V"
+    },
+    "textBox": {
+      "label": "Textfeld",
+      "caption": "Neu"
+    },
+    "textBoxInsert": {
+      "label": "Textfeld",
+      "caption": "Einfügen"
+    },
+    "writeText": {
+      "label": "Text schreiben",
+      "caption": "Freihand"
+    },
+    "image": {
+      "label": "Bild",
+      "caption": "Vom Gerät"
+    },
+    "icons": {
+      "label": "Symbole",
+      "caption": "Bibliothek"
+    },
+    "newPage": {
+      "label": "Neue Seite",
+      "caption": "Leer"
+    },
+    "deletePage": {
+      "label": "Seite löschen",
+      "caption": "Aktuelle"
+    },
+    "duplicatePage": {
+      "label": "Seite duplizieren",
+      "caption": "Aktuelle"
+    },
+    "case": {
+      "none": "Original",
+      "uppercase": "GROSSBUCHSTABEN",
+      "lowercase": "kleinbuchstaben",
+      "capitalize": "Ersten Buchstaben Groß"
+    },
+    "shapeNames": {
+      "rect": "Rechteck",
+      "rounded": "Abgerundet",
+      "circle": "Kreis",
+      "line": "Linie",
+      "arrow": "Pfeil"
+    },
+    "shapeShort": {
+      "rect": "Rechteck",
+      "circle": "Kreis",
+      "line": "Linie",
+      "arrow": "Pfeil"
+    },
+    "cut": "Ausschneiden",
+    "copy": "Kopieren",
+    "formatBrush": "Format übertragen",
+    "formatBrushActive": "Pinsel aktiv",
+    "showRibbon": "Menüband anzeigen",
+    "hideRibbon": "Menüband ausblenden",
+    "increaseFontSize": "Schrift vergrößern",
+    "decreaseFontSize": "Schrift verkleinern",
+    "caseTitle": "Groß-/Kleinschreibung",
+    "clearFormat": "Formatierung löschen",
+    "bold": "Fett",
+    "italic": "Kursiv",
+    "underline": "Unterstrichen",
+    "strikethrough": "Durchgestrichen",
+    "subscript": "Tiefgestellt",
+    "superscript": "Hochgestellt",
+    "highlightColor": "Hervorhebungsfarbe",
+    "noHighlight": "Keine Hervorhebung",
+    "fontColor": "Schriftfarbe",
+    "bullets": "Aufzählung",
+    "numbering": "Nummerierung",
+    "decreaseIndent": "Einzug verkleinern",
+    "increaseIndent": "Einzug vergrößern",
+    "alignLeft": "Linksbündig",
+    "alignCenter": "Zentriert",
+    "alignRight": "Rechtsbündig",
+    "alignJustify": "Blocksatz",
+    "lineSpacingTitle": "Zeilenabstand",
+    "addSpaceBefore": "Abstand vor Absatz hinzufügen",
+    "addSpaceAfter": "Abstand nach Absatz hinzufügen",
+    "removeSpacing": "Abstand entfernen",
+    "shading": "Schattierung",
+    "noFill": "Keine Füllung",
+    "bordersTitle": "Rahmen",
+    "borderWidth": "{{width}} pt",
+    "noBorder": "Kein Rahmen",
+    "color": "Farbe",
+    "delete": "Löschen",
+    "duplicate": "Duplizieren",
+    "bringToFront": "In den Vordergrund",
+    "sendToBack": "In den Hintergrund",
+    "rotateCw": "Um 90° nach rechts drehen",
+    "rotateCcw": "Um 90° nach links drehen",
+    "templates": "Vorlagen",
+    "shapesMenu": "Formen",
+    "insertCenter": "In der Mitte einfügen",
+    "drawOnPage": "Auf der Seite zeichnen"
+  }
+}

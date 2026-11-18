@@ -1,0 +1,147 @@
+{
+  "app": {
+    "name": "Nexus"
+  },
+  "nav": {
+    "dashboard": "Painel",
+    "calendar": "Calendário",
+    "employees": "Funcionários",
+    "services": "Serviços",
+    "studio": "Estúdio",
+    "timesheet": "Ponto",
+    "settings": "Configurações",
+    "map": "Mapa",
+    "groups": {
+      "operations": "Operação",
+      "commercial": "Comercial",
+      "documents": "Documentos",
+      "management": "Gestão"
+    },
+    "items": {
+      "overview": {
+        "label": "Visão Geral",
+        "description": "KPIs, caixa e operações do dia"
+      },
+      "calendar": {
+        "label": "Calendário",
+        "description": "Agenda operacional de mudanças"
+      },
+      "routes": {
+        "label": "Matrix · Planejador",
+        "description": "Distribuição e otimização de rotas"
+      },
+      "map": {
+        "label": "Torre de Controle",
+        "description": "Mapa ao vivo da frota"
+      },
+      "stubs": {
+        "label": "Canhotos",
+        "description": "Comprovantes e progresso dos motoristas"
+      },
+      "quotes": {
+        "label": "Orçamentos & IA",
+        "description": "Análise de vídeo, propostas e pipeline"
+      },
+      "clients": {
+        "label": "Clientes",
+        "description": "Base de clientes e histórico"
+      },
+      "easyPdf": {
+        "label": "Easy PDF",
+        "description": "Ferramentas de PDF, editor visual e histórico"
+      },
+      "finance": {
+        "label": "Financeiro",
+        "description": "Fluxo de caixa, despesas e faturamento"
+      },
+      "employees": {
+        "label": "Equipe",
+        "description": "Motoristas, ajudantes e terceirizados"
+      }
+    }
+  },
+  "actions": {
+    "save": "Salvar",
+    "cancel": "Cancelar",
+    "close": "Fechar",
+    "delete": "Excluir",
+    "edit": "Editar",
+    "add": "Adicionar",
+    "remove": "Remover",
+    "confirm": "Confirmar",
+    "back": "Voltar",
+    "next": "Próximo",
+    "search": "Buscar",
+    "export": "Exportar",
+    "viewAll": "Ver todos",
+    "viewReceipt": "Ver comprovante",
+    "upload": "Enviar",
+    "reset": "Restaurar padrão",
+    "loading": "Carregando…",
+    "retry": "Tentar novamente",
+    "send": "Enviar",
+    "download": "Baixar",
+    "print": "Imprimir",
+    "copy": "Copiar",
+    "options": "Opções"
+  },
+  "status": {
+    "active": "Ativo",
+    "inactive": "Inativo",
+    "pending": "Pendente",
+    "completed": "Concluído",
+    "cancelled": "Cancelado",
+    "error": "Erro",
+    "success": "Sucesso"
+  },
+  "misc": {
+    "yes": "Sim",
+    "no": "Não",
+    "unknown": "Desconhecido",
+    "notInformed": "Não informado",
+    "comingSoon": "Em breve"
+  },
+  "commandPalette": {
+    "searchPlaceholder": "Buscar páginas, ações, conversas e clientes…",
+    "noResults": "Nada encontrado para “{{query}}”.",
+    "navigate": "navegar",
+    "openItem": "abrir",
+    "clientFallback": "Cliente",
+    "groups": {
+      "pages": "Páginas",
+      "actions": "Ações",
+      "conversations": "Conversas",
+      "clients": "Clientes"
+    },
+    "actionsList": {
+      "newQuote": {
+        "label": "Novo orçamento",
+        "hint": "Abrir Orçamentos & IA"
+      },
+      "pdfTools": {
+        "label": "Ferramentas PDF",
+        "hint": "Juntar, dividir, comprimir, assinar…"
+      }
+    }
+  },
+  "topbar": {
+    "brandEyebrow": "Opta Files",
+    "openMenu": "Abrir menu",
+    "searchPlaceholder": "Buscar cliente, página ou ação…",
+    "notifications": "Notificações",
+    "clear": "Limpar",
+    "noRecentNotifications": "Nenhuma notificação recente.",
+    "status": {
+      "connecting": "Conectando…"
+    }
+  },
+  "sidebar": {
+    "closeMenu": "Fechar menu",
+    "expandMenu": "Expandir menu",
+    "collapseMenu": "Recolher menu",
+    "mockUser": {
+      "name": "João Motorista",
+      "role": "Gerente de Logística"
+    }
+  }
+}

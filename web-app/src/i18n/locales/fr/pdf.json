@@ -1,0 +1,23 @@
+{
+  "quote": {
+    "inventoryTitle": "LISTE D'INVENTAIRE",
+    "ref": "RÉF",
+    "date": "DATE",
+    "number": "NUMÉRO",
+    "package": "EMBALLAGE",
+    "condition": "ÉTAT",
+    "description": "DESCRIPTION",
+    "value": "VALEUR",
+    "items": "ARTICLES",
+    "total": "TOTAL",
+    "company": "ENTREPRISE",
+    "sign": "SIGNATURE",
+    "client": "CLIENT"
+  },
+  "receipt": {
+    "title": "REÇU"
+  },
+  "timesheet": {
+    "title": "FEUILLE DE TEMPS"
+  }
+}

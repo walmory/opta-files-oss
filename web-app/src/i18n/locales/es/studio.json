@@ -1,0 +1,227 @@
+{
+  "title": "Estudio de diseño",
+  "templates": {
+    "blank": "Página en blanco",
+    "letterhead": "Membrete",
+    "quote": "Presupuesto",
+    "receipt": "Recibo",
+    "checklist": "Lista de mudanza",
+    "social": "Publicación promocional"
+  },
+  "toolbar": {
+    "text": "Texto",
+    "image": "Imagen",
+    "rect": "Rectángulo",
+    "line": "Línea",
+    "save": "Guardar",
+    "export": "Exportar PDF"
+  },
+  "page": {
+    "newDocumentConfirm": "¿Descartar cambios no exportados?",
+    "pdfOpened": "PDF abierto en Studio",
+    "fileMenu": "Archivo",
+    "newDocument": "Nuevo documento",
+    "openPdf": "Abrir PDF",
+    "editableRecommended": "Editable (recomendado)",
+    "editableDesc": "Los textos, fuentes, colores e imágenes se convierten en elementos editables en todas las páginas.",
+    "overlay": "Superponer",
+    "overlayDesc": "Mantiene el PDF como imagen; edita encima.",
+    "saveDraft": "Guardar borrador",
+    "draftSaved": "Borrador guardado",
+    "draftTooLarge": "Borrador demasiado grande para guardar localmente",
+    "exportPdf": "Exportar PDF",
+    "unsaved": "• no exportado",
+    "undo": "Deshacer (⌘Z)",
+    "redo": "Rehacer (⇧⌘Z)",
+    "pages": "Páginas",
+    "properties": "Propiedades",
+    "exitFullscreen": "Salir de pantalla completa (Esc)",
+    "fullscreen": "Pantalla completa",
+    "draftBanner": "Encontramos un borrador guardado de Studio.",
+    "restore": "Restaurar",
+    "dismiss": "Descartar",
+    "dropHere": "Suelta un PDF aquí",
+    "dropDesc": "Los textos, fuentes e imágenes quedan editables. También acepta imágenes (JPG/PNG) y documentos de Word/Excel/PowerPoint.",
+    "selectFile": "Seleccionar archivo",
+    "blankDocument": "Documento en blanco",
+    "dropOverlay": "Suelta para abrir en Studio (PDF, imagen u Office)",
+    "prevPage": "Página anterior (PageUp)",
+    "nextPage": "Página siguiente (PageDown)",
+    "selected": "{{count}} seleccionado(s)",
+    "zoomOut": "Reducir zoom (⌘-)",
+    "zoomIn": "Aumentar zoom (⌘+)",
+    "fitWidth": "Ajustar al ancho (⌘0)",
+    "fitPage": "Página completa",
+    "fitWidthOption": "Ancho",
+    "fitPageOption": "Página",
+    "importingPdf": "Importando PDF",
+    "searchContact": "Buscar contacto…",
+    "exportSuccess": "PDF exportado",
+    "exportSuccessDesc": "También guardado en Documentos.",
+    "exportFail": "Error al exportar",
+    "sendFail": "Error al enviar",
+    "importSuccess": "Documento abierto en Studio",
+    "importOverlayNote": "{{name}} · páginas preservadas",
+    "importEditableNote": "{{name}} · textos e imágenes editables",
+    "importFail": "No se pudo importar",
+    "documentDefaultName": "documento"
+  },
+  "pagesPanel": {
+    "title": "Páginas",
+    "moveUp": "Mover hacia arriba",
+    "moveDown": "Mover hacia abajo",
+    "duplicate": "Duplicar",
+    "delete": "Eliminar",
+    "confirmDelete": "¿Eliminar esta página?",
+    "newPage": "Página nueva"
+  },
+  "fontPicker": {
+    "catAll": "Todas",
+    "catSans": "Sans",
+    "catSerif": "Serif",
+    "catDisplay": "Display",
+    "catHandwriting": "Manuscrita",
+    "catMono": "Mono",
+    "catPdf": "Del PDF",
+    "fontLabel": "Fuente",
+    "searchPlaceholder": "Buscar fuente…",
+    "recent": "Recientes",
+    "weights": "{{count}} peso(s)",
+    "noResults": "No se encontraron fuentes.",
+    "embedNote": "Las Google Fonts se incorporan en el PDF exportado. Las fuentes estándar (Helvetica, Times, Courier) no necesitan incorporación."
+  },
+  "colorPicker": {
+    "noColor": "Sin color",
+    "moreColorsAria": "{{label}} — más colores",
+    "colorsLabel": "Colores",
+    "moreColorsTitle": "Más colores"
+  },
+  "canvas": {
+    "ruler": {
+      "dragMargin": "Arrastra para ajustar el margen"
+    }
+  },
+  "ribbon": {
+    "tabs": {
+      "home": "Inicio",
+      "insert": "Insertar",
+      "draw": "Dibujar",
+      "layout": "Diseño",
+      "view": "Ver"
+    },
+    "groups": {
+      "clipboard": "Portapapeles",
+      "font": "Fuente",
+      "fontNextText": "Fuente (próximo texto)",
+      "paragraph": "Párrafo",
+      "paragraphNextText": "Párrafo (próximo texto)",
+      "styles": "Estilos",
+      "edit": "Editar",
+      "text": "Texto",
+      "illustrations": "Ilustraciones",
+      "pages": "Páginas"
+    },
+    "paste": {
+      "label": "Pegar",
+      "caption": "Ctrl+V"
+    },
+    "textBox": {
+      "label": "Cuadro de texto",
+      "caption": "Nuevo"
+    },
+    "textBoxInsert": {
+      "label": "Cuadro de texto",
+      "caption": "Insertar"
+    },
+    "writeText": {
+      "label": "Escribir texto",
+      "caption": "A mano alzada"
+    },
+    "image": {
+      "label": "Imagen",
+      "caption": "Del dispositivo"
+    },
+    "icons": {
+      "label": "Iconos",
+      "caption": "Biblioteca"
+    },
+    "newPage": {
+      "label": "Nueva página",
+      "caption": "En blanco"
+    },
+    "deletePage": {
+      "label": "Eliminar página",
+      "caption": "Actual"
+    },
+    "duplicatePage": {
+      "label": "Duplicar página",
+      "caption": "Actual"
+    },
+    "case": {
+      "none": "Original",
+      "uppercase": "MAYÚSCULAS",
+      "lowercase": "minúsculas",
+      "capitalize": "Primera Mayúscula"
+    },
+    "shapeNames": {
+      "rect": "Rectángulo",
+      "rounded": "Redondeado",
+      "circle": "Círculo",
+      "line": "Línea",
+      "arrow": "Flecha"
+    },
+    "shapeShort": {
+      "rect": "Rectángulo",
+      "circle": "Círculo",
+      "line": "Línea",
+      "arrow": "Flecha"
+    },
+    "cut": "Cortar",
+    "copy": "Copiar",
+    "formatBrush": "Copiar formato",
+    "formatBrushActive": "Pincel activo",
+    "showRibbon": "Mostrar la cinta",
+    "hideRibbon": "Ocultar la cinta",
+    "increaseFontSize": "Aumentar fuente",
+    "decreaseFontSize": "Reducir fuente",
+    "caseTitle": "Cambiar mayúsculas",
+    "clearFormat": "Borrar formato",
+    "bold": "Negrita",
+    "italic": "Cursiva",
+    "underline": "Subrayado",
+    "strikethrough": "Tachado",
+    "subscript": "Subíndice",
+    "superscript": "Superíndice",
+    "highlightColor": "Color de resaltado",
+    "noHighlight": "Sin resaltado",
+    "fontColor": "Color de fuente",
+    "bullets": "Viñetas",
+    "numbering": "Numeración",
+    "decreaseIndent": "Reducir sangría",
+    "increaseIndent": "Aumentar sangría",
+    "alignLeft": "Alinear a la izquierda",
+    "alignCenter": "Centrar",
+    "alignRight": "Alinear a la derecha",
+    "alignJustify": "Justificar",
+    "lineSpacingTitle": "Interlineado",
+    "addSpaceBefore": "Agregar espacio antes del párrafo",
+    "addSpaceAfter": "Agregar espacio después del párrafo",
+    "removeSpacing": "Quitar espaciado",
+    "shading": "Sombreado",
+    "noFill": "Sin relleno",
+    "bordersTitle": "Bordes",
+    "borderWidth": "{{width}} pt",
+    "noBorder": "Sin borde",
+    "color": "Color",
+    "delete": "Eliminar",
+    "duplicate": "Duplicar",
+    "bringToFront": "Traer al frente",
+    "sendToBack": "Enviar al fondo",
+    "rotateCw": "Girar 90° a la derecha",
+    "rotateCcw": "Girar 90° a la izquierda",
+    "templates": "Plantillas",
+    "shapesMenu": "Formas",
+    "insertCenter": "Insertar en el centro",
+    "drawOnPage": "Dibujar en la página"
+  }
+}
